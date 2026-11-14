@@ -108,12 +108,12 @@ summary: 'Five makers in an old net loft by the harbour, making furniture, ceram
 ::::
 :::
 
-::: section {"id":"ab-values","props":{"width":"wide"},"label":"How we work","class":"tint"}
-:::: heading {"id":"ab-values-title","props":{"text":"How we <em>work</em>","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
+::: section {"id":"ab-values","props":{"width":"wide"},"label":"How we work","class":"clay"}
+:::: heading {"id":"ab-values-title","props":{"text":"How we work","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
 ::::
 
 :::: box {"id":"ab-values-list"}
-::::: box {"id":"ab-v-01","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"}}}
+::::: box {"id":"ab-v-01","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"}}}
 :::::: paragraph {"id":"ab-v-01-n","props":{"tag":"p","text":"01"},"class":"meta"}
 ::::::
 
@@ -124,7 +124,7 @@ summary: 'Five makers in an old net loft by the harbour, making furniture, ceram
 ::::::
 :::::
 
-::::: box {"id":"ab-v-02","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"}}}
+::::: box {"id":"ab-v-02","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"}}}
 :::::: paragraph {"id":"ab-v-02-n","props":{"tag":"p","text":"02"},"class":"meta"}
 ::::::
 
@@ -135,7 +135,7 @@ summary: 'Five makers in an old net loft by the harbour, making furniture, ceram
 ::::::
 :::::
 
-::::: box {"id":"ab-v-03","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"}}}
+::::: box {"id":"ab-v-03","style":{"base":{"gap":"token:space.grid","display":"grid","borderTop":"1px solid token:color.border","alignItems":"baseline","paddingBlock":"token:space.8","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)"},"mobile":{"gap":"token:space.3","gridTemplateColumns":"minmax(0,1fr)"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"}}}
 :::::: paragraph {"id":"ab-v-03-n","props":{"tag":"p","text":"03"},"class":"meta"}
 ::::::
 
@@ -156,7 +156,61 @@ summary: 'Five makers in an old net loft by the harbour, making furniture, ceram
 :::::
 
 ::::: column {"id":"ab-years-c2"}
-:::::: table {"id":"ab-years-table","props":{"look":"lines","rows":[["1988","Ines’s father rents the old net loft to repair boats."],["1997","The first table leaves the loft, for the harbour master."],["2006","Jonas moves his wheel in. The kiln follows a year later."],["2015","The loft becomes a studio, and the yard a timber store."],["2023","Field notes, our first book, is printed and sewn by hand."],["2026","Five makers, three crafts, and the doors open on Saturdays."]],"header":false,"row_headers":true},"style":{"base":{"fontSize":"token:text.lg"}}}
+:::::: box {"id":"ab-years-list","props":{"tag":"ol"},"style":{"base":{"display":"flex","flexDirection":"column"}}}
+::::::: box {"id":"ab-years-list-1","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-1-y","props":{"tag":"p","text":"1988"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-1-t","props":{"tag":"p","text":"Ines’s father rents the old net loft to repair boats."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
+::::::: box {"id":"ab-years-list-2","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-2-y","props":{"tag":"p","text":"1997"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-2-t","props":{"tag":"p","text":"The first table leaves the loft, for the harbour master."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
+::::::: box {"id":"ab-years-list-3","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-3-y","props":{"tag":"p","text":"2006"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-3-t","props":{"tag":"p","text":"Jonas moves his wheel in. The kiln follows a year later."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
+::::::: box {"id":"ab-years-list-4","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-4-y","props":{"tag":"p","text":"2015"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-4-t","props":{"tag":"p","text":"The loft becomes a studio, and the yard a timber store."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
+::::::: box {"id":"ab-years-list-5","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-5-y","props":{"tag":"p","text":"2023"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-5-t","props":{"tag":"p","text":"Field notes, our first book, is printed and sewn by hand."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
+::::::: box {"id":"ab-years-list-6","props":{"tag":"li"},"style":{"base":{"display":"grid","gridTemplateColumns":"6rem minmax(0,1fr)","gap":"token:space.6","alignItems":"baseline","paddingBlock":"token:space.5","borderTop":"1px solid token:color.border"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.1"}}}
+:::::::: paragraph {"id":"ab-years-list-6-y","props":{"tag":"p","text":"2026"},"style":{"base":{"fontSize":"token:text.2xl","fontWeight":"token:weight.medium","letterSpacing":"token:tracking.snug","fontVariantNumeric":"tabular-nums","lineHeight":"1.2"}}}
+::::::::
+
+:::::::: paragraph {"id":"ab-years-list-6-t","props":{"tag":"p","text":"Five makers, three crafts, and the doors open on Saturdays."},"style":{"base":{"fontSize":"token:text.lg","lineHeight":"1.5"}}}
+::::::::
+
+:::::::
+
 ::::::
 :::::
 ::::

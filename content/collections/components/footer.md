@@ -11,7 +11,7 @@ description: 'An invitation, the studio’s address, how to get in touch, the fo
 ::: box {"id":"ft","props":{"tag":"footer"},"label":"Footer","style":{"base":{"paddingTop":"token:space.section","paddingBottom":"token:space.8"}},"class":"band"}
 :::: box {"id":"ft-in","style":{"base":{"maxWidth":"token:container.wide","marginInline":"auto","paddingInline":"token:space.gutter","display":"flex","flexDirection":"column","gap":"token:space.block"}}}
 ::::: box {"id":"ft-top","label":"Invitation","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,8fr) minmax(0,4fr)","gap":"token:space.8","alignItems":"end"},"tablet":{"gridTemplateColumns":"minmax(0,1fr)"}}}
-:::::: heading {"id":"ft-title","props":{"text":"Come and see <em>the workshop</em>.","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em","color":"inherit"}}}
+:::::: heading {"id":"ft-title","props":{"text":"Come and see the workshop.","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"-0.015em","maxWidth":"12em","color":"token:color.sun"}}}
 ::::::
 
 :::::: buttons {"id":"ft-actions","props":{"justify":"end"},"style":{"tablet":{"justifyContent":"flex-start"}}}
@@ -36,7 +36,10 @@ description: 'An invitation, the studio’s address, how to get in touch, the fo
 ::::::: paragraph {"id":"ft-address","props":{"tag":"p"},"style":{"base":{"whiteSpace":"pre-line"}},"bind":{"text":"globals.studio.address"}}
 :::::::
 
-::::::: paragraph {"id":"ft-hours","props":{"tag":"p"},"style":{"base":{"color":"token:color.muted"}},"bind":{"text":"globals.studio.hours"}}
+::::::: paragraph {"id":"ft-open-label","props":{"text":"Open","tag":"p"},"style":{"base":{"color":"token:color.muted","marginTop":"token:space.4"}}}
+:::::::
+
+::::::: paragraph {"id":"ft-hours","props":{"tag":"p"},"style":{"base":{"whiteSpace":"pre-line"}},"bind":{"text":"globals.studio.hours"}}
 :::::::
 ::::::
 

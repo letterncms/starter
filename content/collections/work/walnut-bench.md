@@ -4,6 +4,7 @@ title: 'The walnut bench'
 status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 2
+colour: sun
 year: '2026'
 cover:
   - 01m7ba38th17jhcdd81dzeyb34
@@ -66,10 +67,10 @@ discipline: Furniture
 ::::
 :::
 
-::: section {"id":"wb-spec","props":{"width":"content"},"class":"tint"}
+::: section {"id":"wb-spec","props":{"width":"content"},"class":"sun"}
 :::: columns {"id":"wb-spec-cols","props":{"gap":"token:space.16","align":"center","layout":"1-1"}}
 ::::: column {"id":"wb-spec-c1"}
-:::::: heading {"id":"wb-spec-title","props":{"text":"Made to order, <em>one at a time</em>.","level":"2"}}
+:::::: heading {"id":"wb-spec-title","props":{"text":"Made to order, one at a time.","level":"2"}}
 ::::::
 
 :::::: paragraph {"id":"wb-spec-p","props":{"tag":"p","text":"Each bench is cut from the same tree until the boards run out. Allow eight weeks; we deliver along the coast ourselves."},"style":{"base":{"color":"token:color.muted","marginTop":"token:space.6"}}}

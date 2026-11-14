@@ -10,7 +10,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 
 ::: section {"id":"event-page-hero-photo-s","props":{"width":"wide","background_image":["01m7ba38tsjqd1ph2hd493jaqq"],"overlay":"dark"},"style":{"base":{"minHeight":"min(92vh, 56rem)","display":"flex","alignItems":"flex-end","paddingBottom":"token:space.block"}}}
 :::: box {"id":"event-page-hero-photo-in","class":"on-photo"}
-::::: heading {"id":"event-page-hero-photo-h","props":{"text":"Eleven kilometres of coast, <em>and a kettle at the end</em>.","level":"1"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
+::::: heading {"id":"event-page-hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
 :::::
 
 ::::: buttons {"id":"event-page-hero-photo-b","style":{"base":{"marginTop":"token:space.8"}}}
@@ -37,7 +37,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 
 :::::: box {"id":"event-page-agenda-e1x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"event-page-agenda-e1t","props":{"text":"Open workshop","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"event-page-agenda-e1t","props":{"text":"Open workshop","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"event-page-agenda-e1pl","props":{"text":"The loft, Harbour Road","tag":"p"},"class":"meta"}
@@ -58,7 +58,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 
 :::::: box {"id":"event-page-agenda-e2x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"event-page-agenda-e2t","props":{"text":"Throwing for beginners","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"event-page-agenda-e2t","props":{"text":"Throwing for beginners","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"event-page-agenda-e2pl","props":{"text":"The kiln room, six places","tag":"p"},"class":"meta"}
@@ -79,7 +79,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 
 :::::: box {"id":"event-page-agenda-e3x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"event-page-agenda-e3t","props":{"text":"Sharpening your tools","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"event-page-agenda-e3t","props":{"text":"Sharpening your tools","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"event-page-agenda-e3pl","props":{"text":"The bench, bring your own chisels","tag":"p"},"class":"meta"}
@@ -100,7 +100,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 
 :::::: box {"id":"event-page-agenda-e4x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"event-page-agenda-e4t","props":{"text":"Winter sale of seconds","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"event-page-agenda-e4t","props":{"text":"Winter sale of seconds","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"event-page-agenda-e4pl","props":{"text":"The yard, cash or card","tag":"p"},"class":"meta"}
@@ -144,7 +144,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 :::::
 
-::::: box {"id":"event-page-pricing-p2","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.6","padding":"token:space.8","borderRadius":"token:radius.lg","border":"1px solid token:color.border"}},"class":"band"}
+::::: box {"id":"event-page-pricing-p2","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.6","padding":"token:space.8","borderRadius":"token:radius.lg","border":"1px solid token:color.border"}},"class":"tide"}
 :::::: paragraph {"id":"event-page-pricing-p2n","props":{"text":"Course","tag":"p"},"class":"eyebrow"}
 ::::::
 
@@ -213,7 +213,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::: paragraph {"id":"event-page-cta-photo-k","props":{"text":"Last Saturday of October","tag":"p"},"style":{"base":{"fontSize":"token:text.sm","opacity":"0.8"}}}
 :::::
 
-::::: heading {"id":"event-page-cta-photo-h","props":{"text":"Supper at <em>the long table</em>","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display"}}}
+::::: heading {"id":"event-page-cta-photo-h","props":{"text":"Supper at the long table","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display"}}}
 :::::
 
 ::::: button {"id":"event-page-cta-photo-b","props":{"label":"Keep me a seat","url":"entry:01m7bf0hdtbd9d9d33m5gp91ew","variant":"primary","size":"lg"}}

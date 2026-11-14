@@ -13,7 +13,7 @@ description: 'An invitation over a photograph, centred, with one button.'
 ::::: paragraph {"id":"cta-photo-k","props":{"text":"Last Saturday of October","tag":"p"},"style":{"base":{"fontSize":"token:text.sm","opacity":"0.8"}}}
 :::::
 
-::::: heading {"id":"cta-photo-h","props":{"text":"Supper at <em>the long table</em>","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display"}}}
+::::: heading {"id":"cta-photo-h","props":{"text":"Supper at the long table","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display"}}}
 :::::
 
 ::::: button {"id":"cta-photo-b","props":{"label":"Keep me a seat","url":"entry:01m7bf0hdtbd9d9d33m5gp91ew","variant":"primary","size":"lg"}}

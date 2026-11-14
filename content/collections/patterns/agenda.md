@@ -25,7 +25,7 @@ description: 'Dates in ruled rows, each with a title, a place and a button, for 
 ::::::
 
 :::::: box {"id":"agenda-e1x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"agenda-e1t","props":{"text":"Open workshop","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"agenda-e1t","props":{"text":"Open workshop","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"agenda-e1pl","props":{"text":"The loft, Harbour Road","tag":"p"},"class":"meta"}
@@ -46,7 +46,7 @@ description: 'Dates in ruled rows, each with a title, a place and a button, for 
 ::::::
 
 :::::: box {"id":"agenda-e2x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"agenda-e2t","props":{"text":"Throwing for beginners","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"agenda-e2t","props":{"text":"Throwing for beginners","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"agenda-e2pl","props":{"text":"The kiln room, six places","tag":"p"},"class":"meta"}
@@ -67,7 +67,7 @@ description: 'Dates in ruled rows, each with a title, a place and a button, for 
 ::::::
 
 :::::: box {"id":"agenda-e3x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"agenda-e3t","props":{"text":"Sharpening your tools","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"agenda-e3t","props":{"text":"Sharpening your tools","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"agenda-e3pl","props":{"text":"The bench, bring your own chisels","tag":"p"},"class":"meta"}
@@ -88,7 +88,7 @@ description: 'Dates in ruled rows, each with a title, a place and a button, for 
 ::::::
 
 :::::: box {"id":"agenda-e4x","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.2"}}}
-::::::: heading {"id":"agenda-e4t","props":{"text":"Winter sale of seconds","level":"3"},"style":{"base":{"fontSize":"token:text.xl"}}}
+::::::: heading {"id":"agenda-e4t","props":{"text":"Winter sale of seconds","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"agenda-e4pl","props":{"text":"The yard, cash or card","tag":"p"},"class":"meta"}

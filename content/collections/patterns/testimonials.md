@@ -5,10 +5,10 @@ status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 29
 category: People
-description: 'Three short quotations on raised cards, each with who said it.'
+description: 'Three short quotations on a pale blue section, each with who said it.'
 ---
 
-::: section {"id":"testimonials-s","props":{"width":"wide"},"class":"tint"}
+::: section {"id":"testimonials-s","props":{"width":"wide"},"class":"mist"}
 :::: box {"id":"testimonials-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
 ::::: heading {"id":"testimonials-t","props":{"text":"What people say","level":"2"}}
 :::::

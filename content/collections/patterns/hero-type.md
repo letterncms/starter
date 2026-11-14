@@ -5,18 +5,11 @@ status: published
 published_at: '2026-11-13T22:03:53+00:00'
 position: 14
 category: Heroes
-description: 'A headline set very large, with a line above it. For a home page that leads with words.'
+description: 'A headline set very large on a deep sea-green section. For a home page that leads with words.'
 ---
 
-::: section {"id":"hero-type-s","props":{"width":"wide"},"style":{"base":{"paddingTop":"clamp(2.5rem, 7vw, 7rem)"}}}
-:::: box {"id":"hero-type-top","style":{"base":{"display":"flex","justifyContent":"space-between","gap":"token:space.6","marginBottom":"token:space.8"},"mobile":{"flexDirection":"column","gap":"token:space.1"}}}
-::::: paragraph {"id":"hero-type-k","props":{"text":"Furniture, ceramics and rooms","tag":"p"},"class":"eyebrow"}
-:::::
+::: section {"id":"hero-type-s","props":{"width":"wide"},"style":{"base":{"paddingTop":"clamp(2.5rem, 7vw, 7rem)"}},"class":"tide"}
 
-::::: paragraph {"id":"hero-type-m","props":{"text":"Open Thursday to Saturday","tag":"p"},"class":"meta"}
-:::::
-::::
-
-:::: heading {"id":"hero-type-h","props":{"text":"Things made slowly, <em>to be used for a long time.</em>","level":"1"},"style":{"base":{"maxWidth":"11.5em"}},"class":"display"}
+:::: heading {"id":"hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"style":{"base":{"maxWidth":"11.5em"}},"class":"display"}
 ::::
 :::

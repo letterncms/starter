@@ -11,7 +11,7 @@ fields:
     label: Address
   -
     handle: hours
-    type: text
+    type: textarea
     label: 'Opening Hours'
   -
     handle: email
@@ -30,7 +30,9 @@ data:
   address: |-
     Harbour Road 12
     4381 Westkapelle
-  hours: 'Workshop open Thursday to Saturday, 10 to 5'
+  hours: |-
+    Thursday to Saturday
+    10:00 to 17:00
   email: hello@example.com
   phone: '+31 20 123 4567'
   instagram: 'https://www.instagram.com/'

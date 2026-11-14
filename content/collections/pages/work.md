@@ -14,7 +14,7 @@ summary: 'Rooms, furniture, ceramics and the odd book, made for people along the
 
 ::::: repeat {"id":"wk-items","props":{"sort":"position","source":"entries","filter_by":"item.discipline","collection":"work"},"style":{"base":{"rowGap":"token:space.block","display":"grid","columnGap":"token:space.grid","marginTop":"token:space.8","gridTemplateColumns":"repeat(2,minmax(0,1fr))"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)"}}}
 :::::: box {"id":"wk-item","style":{"even":{"paddingTop":"clamp(0rem, 12vw, 12rem)"},"mobile:even":{"paddingTop":"0"}}}
-::::::: component {"id":"wk-card","props":{"ref":"project-card","values":{"aspect":"4/5"}},"bind":{"values.link":"item.url","values.year":"item.year","values.image":"item.cover","values.title":"item.title","values.discipline":"item.discipline"}}
+::::::: component {"id":"wk-card","props":{"ref":"project-card","values":{"aspect":"4/5"}},"bind":{"values.link":"item.url","values.year":"item.year","values.image":"item.cover","values.title":"item.title","values.discipline":"item.discipline","values.colour":"item.colour"}}
 :::::::
 ::::::
 :::::

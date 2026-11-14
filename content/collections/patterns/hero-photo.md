@@ -10,7 +10,7 @@ description: 'A photograph filling the screen, with a headline and a button over
 
 ::: section {"id":"hero-photo-s","props":{"width":"wide","background_image":["01m7ba38tsjqd1ph2hd493jaqq"],"overlay":"dark"},"style":{"base":{"minHeight":"min(92vh, 56rem)","display":"flex","alignItems":"flex-end","paddingBottom":"token:space.block"}}}
 :::: box {"id":"hero-photo-in","class":"on-photo"}
-::::: heading {"id":"hero-photo-h","props":{"text":"Eleven kilometres of coast, <em>and a kettle at the end</em>.","level":"1"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
+::::: heading {"id":"hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
 :::::
 
 ::::: buttons {"id":"hero-photo-b","style":{"base":{"marginTop":"token:space.8"}}}

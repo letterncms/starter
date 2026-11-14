@@ -14,7 +14,7 @@ description: 'A small label on the left and a large opening paragraph on the rig
 :::::
 
 ::::: box {"id":"intro-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: paragraph {"id":"intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have <em>fewer, better things</em>.","tag":"p"},"style":{"base":{"fontSize":"token:text.3xl","lineHeight":"1.18","maxWidth":"22em"}},"class":"lede"}
+:::::: paragraph {"id":"intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have fewer, better things.","tag":"p"},"style":{"base":{"fontSize":"token:text.3xl","lineHeight":"1.18","maxWidth":"22em"}},"class":"lede"}
 ::::::
 
 :::::: button {"id":"intro-b","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","variant":"secondary","icon":"arrow-right","icon_position":"end"}}

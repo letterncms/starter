@@ -5,7 +5,7 @@ status: published
 published_at: '2026-11-13T22:03:53+00:00'
 position: 4
 category: Cards
-description: 'A project in a list: a large photo, its title, discipline and year, linked to the project.'
+description: 'A project in a list: a tile in the project’s colour, with its photo, title, discipline and year, linked to the project.'
 props:
   -
     handle: title
@@ -32,6 +32,16 @@ props:
     label: Year
     default: '2026'
   -
+    handle: colour
+    type: select
+    label: Colour
+    options:
+      tide: Tide
+      clay: Clay
+      sun: Sun
+      mist: Mist
+    default: tide
+  -
     handle: aspect
     type: select
     label: Shape
@@ -43,22 +53,26 @@ props:
     default: 4/3
 ---
 
-::: box {"id":"pc","props":{"tag":"article"},"label":"Project card","style":{"base":{"position":"relative","color":"inherit","display":"flex","flexDirection":"column","gap":"token:space.4"}},"bind":{"link":"props.link"},"logic":{"behaviors":{"group":true}}}
-:::: box {"id":"pc-media","style":{"base":{"overflow":"clip","backgroundColor":"token:color.surface"}}}
-::::: image {"id":"pc-image","props":{"sizes":"(min-width: 64rem) 50vw, 100vw"},"style":{"base":{"transition":"transform 900ms cubic-bezier(.2,.8,.2,1)"},"group-hover":{"transform":"scale(1.03)"}},"bind":{"image":"props.image","aspect":"props.aspect"}}
+::: box {"id":"pc","props":{"tag":"article"},"style":{"base":{"position":"relative","display":"flex","flexDirection":"column","gap":"token:space.5","padding":"token:space.4","paddingBottom":"token:space.6","borderRadius":"token:radius.lg","textDecorationLine":"none","transition":"transform 500ms cubic-bezier(.2,.8,.2,1)"},"group-hover":{"transform":"translateY(-4px)"}},"bind":{"link":"props.link","state:tide":"props.colour|is:tide","state:clay":"props.colour|is:clay","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Project card"}
+:::: box {"id":"pc-media","style":{"base":{"overflow":"clip","borderRadius":"token:radius.md"}}}
+::::: image {"id":"pc-image","props":{"sizes":"(min-width: 64rem) 46vw, 100vw"},"style":{"base":{"transition":"transform 900ms cubic-bezier(.2,.8,.2,1)"},"group-hover":{"transform":"scale(1.03)"}},"bind":{"image":"props.image","aspect":"props.aspect","visible":"props.image"}}
 :::::
+
 ::::
 
-:::: box {"id":"pc-text","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"token:space.4"}}}
-::::: heading {"id":"pc-title","props":{"level":"3"},"style":{"base":{"fontSize":"token:text.xl","lineHeight":"1.25","textDecorationColor":"transparent","textUnderlineOffset":"0.2em","textDecorationThickness":"1px","transition":"text-decoration-color 200ms ease"},"group-hover":{"textDecorationColor":"currentColor"}},"bind":{"text":"props.title"}}
+:::: box {"id":"pc-text","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"token:space.4","paddingInline":"token:space.2"}}}
+::::: heading {"id":"pc-title","props":{"level":"3"},"style":{"base":{"fontFamily":"token:font.display","fontSize":"token:text.3xl","lineHeight":"1","letterSpacing":"token:tracking.tight","fontWeight":"token:weight.regular"}},"bind":{"text":"props.title"}}
 :::::
 
-::::: box {"id":"pc-meta","style":{"base":{"display":"flex","gap":"token:space.3","flexShrink":"0"}},"class":"meta"}
-:::::: paragraph {"id":"pc-discipline","props":{"tag":"span"},"bind":{"text":"props.discipline","visible":"props.discipline"}}
+::::: box {"id":"pc-meta","class":"meta","style":{"base":{"display":"flex","gap":"token:space.3","flexShrink":"0","color":"token:color.muted"}}}
+:::::: paragraph {"id":"pc-discipline","props":{"text":"","tag":"span"},"bind":{"text":"props.discipline","visible":"props.discipline"}}
 ::::::
 
-:::::: paragraph {"id":"pc-year","props":{"tag":"span"},"bind":{"text":"props.year","visible":"props.year"}}
+:::::: paragraph {"id":"pc-year","props":{"text":"","tag":"span"},"bind":{"text":"props.year","visible":"props.year"}}
 ::::::
+
 :::::
+
 ::::
+
 :::

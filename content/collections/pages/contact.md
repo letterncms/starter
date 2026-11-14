@@ -33,7 +33,13 @@ summary: 'Write, call or come by. The workshop is open Thursday to Saturday, and
 ::::::: paragraph {"id":"ct-address","props":{"tag":"p"},"style":{"base":{"fontSize":"token:text.xl","lineHeight":"1.45","whiteSpace":"pre-line"}},"bind":{"text":"globals.studio.address"}}
 :::::::
 
-::::::: paragraph {"id":"ct-hours","props":{"tag":"p"},"bind":{"text":"globals.studio.hours"},"class":"meta"}
+::::::
+
+:::::: box {"id":"ct-open","style":{"base":{"gap":"token:space.2","display":"flex","flexDirection":"column"}}}
+::::::: paragraph {"id":"ct-open-label","props":{"tag":"p","text":"Open"},"class":"eyebrow"}
+:::::::
+
+::::::: paragraph {"id":"ct-hours","props":{"tag":"p"},"style":{"base":{"fontSize":"token:text.xl","lineHeight":"1.45","whiteSpace":"pre-line"}},"bind":{"text":"globals.studio.hours"}}
 :::::::
 ::::::
 
@@ -51,10 +57,10 @@ summary: 'Write, call or come by. The workshop is open Thursday to Saturday, and
 ::::
 :::
 
-::: section {"id":"ct-getting-here","props":{"width":"wide"},"label":"Getting here","class":"tint"}
+::: section {"id":"ct-getting-here","props":{"width":"wide"},"label":"Getting here","class":"mist"}
 :::: columns {"id":"ct-gh-cols","props":{"gap":"token:space.6","layout":"1-1-1"}}
 ::::: column {"id":"ct-gh-1"}
-:::::: heading {"id":"ct-gh-1-t","props":{"text":"By train","level":"3"},"style":{"base":{"fontSize":"token:text.xl","marginBottom":"token:space.3"}}}
+:::::: heading {"id":"ct-gh-1-t","props":{"text":"By train","level":"3"},"style":{"base":{"fontSize":"token:text.2xl","marginBottom":"token:space.3"}}}
 ::::::
 
 :::::: paragraph {"id":"ct-gh-1-p","props":{"tag":"p","text":"Trains run every half hour to the harbour station. From there it is a ten-minute walk along the quay, past the fish auction."},"style":{"base":{"color":"token:color.muted"}}}
@@ -62,7 +68,7 @@ summary: 'Write, call or come by. The workshop is open Thursday to Saturday, and
 :::::
 
 ::::: column {"id":"ct-gh-2"}
-:::::: heading {"id":"ct-gh-2-t","props":{"text":"By bike","level":"3"},"style":{"base":{"fontSize":"token:text.xl","marginBottom":"token:space.3"}}}
+:::::: heading {"id":"ct-gh-2-t","props":{"text":"By bike","level":"3"},"style":{"base":{"fontSize":"token:text.2xl","marginBottom":"token:space.3"}}}
 ::::::
 
 :::::: paragraph {"id":"ct-gh-2-p","props":{"tag":"p","text":"The coast path passes the back of the yard. Leave your bike against the timber stack; nobody will move it."},"style":{"base":{"color":"token:color.muted"}}}
@@ -70,7 +76,7 @@ summary: 'Write, call or come by. The workshop is open Thursday to Saturday, and
 :::::
 
 ::::: column {"id":"ct-gh-3"}
-:::::: heading {"id":"ct-gh-3-t","props":{"text":"By car","level":"3"},"style":{"base":{"fontSize":"token:text.xl","marginBottom":"token:space.3"}}}
+:::::: heading {"id":"ct-gh-3-t","props":{"text":"By car","level":"3"},"style":{"base":{"fontSize":"token:text.2xl","marginBottom":"token:space.3"}}}
 ::::::
 
 :::::: paragraph {"id":"ct-gh-3-p","props":{"tag":"p","text":"Park at the dune car park and take the grass lane to the sea. For a delivery or a collection, drive right up to the loft door."},"style":{"base":{"color":"token:color.muted"}}}

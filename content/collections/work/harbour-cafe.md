@@ -4,6 +4,7 @@ title: 'Harbour Café'
 status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 1
+colour: clay
 year: '2024'
 cover:
   - 01m7ba38v113rwy0ywdaeaph32
@@ -40,7 +41,7 @@ discipline: Rooms
 ::::
 :::
 
-::: section {"id":"hc-band","props":{"width":"content"},"class":"band"}
+::: section {"id":"hc-band","props":{"width":"content"},"class":"tide"}
 :::: columns {"id":"hc-band-cols","props":{"gap":"token:space.16","align":"center","layout":"1-1"}}
 ::::: column {"id":"hc-band-c1"}
 :::::: image {"id":"hc-bowl","props":{"alt":"Two people passing a bowl of food across a table.","image":["01m7ba38v9y5k4vr9x14mmp936"],"sizes":"(min-width: 48rem) 40vw, 100vw","aspect":"1/1"}}

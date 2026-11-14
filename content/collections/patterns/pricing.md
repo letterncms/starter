@@ -5,7 +5,7 @@ status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 21
 category: Lists
-description: 'Three offers side by side, the middle one on a dark band, each with what is included.'
+description: 'Three offers side by side, the middle one on a deep sea-green card, each with what is included.'
 ---
 
 ::: section {"id":"pricing-s","props":{"width":"wide"}}
@@ -39,7 +39,7 @@ description: 'Three offers side by side, the middle one on a dark band, each wit
 ::::::
 :::::
 
-::::: box {"id":"pricing-p2","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.6","padding":"token:space.8","borderRadius":"token:radius.lg","border":"1px solid token:color.border"}},"class":"band"}
+::::: box {"id":"pricing-p2","style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.6","padding":"token:space.8","borderRadius":"token:radius.lg","border":"1px solid token:color.border"}},"class":"tide"}
 :::::: paragraph {"id":"pricing-p2n","props":{"text":"Course","tag":"p"},"class":"eyebrow"}
 ::::::
 

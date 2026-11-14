@@ -4,6 +4,7 @@ title: 'Field notes'
 status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 3
+colour: tide
 year: '2023'
 cover:
   - 01m7ba38v8kxr3dpcnd15jx0kk

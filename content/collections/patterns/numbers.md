@@ -5,10 +5,10 @@ status: published
 published_at: '2026-11-13T22:03:53+00:00'
 position: 19
 category: Features
-description: 'Four figures in a row, each under a strong rule, with what it counts.'
+description: 'Four figures in a row on a pale blue section, each under a rule, with what it counts.'
 ---
 
-::: section {"id":"numbers-s","props":{"width":"wide"}}
+::: section {"id":"numbers-s","props":{"width":"wide"},"class":"mist"}
 :::: box {"id":"numbers-g","props":{"tag":"dl"},"style":{"base":{"display":"grid","gridTemplateColumns":"repeat(4,minmax(0,1fr))","gap":"token:space.grid"},"tablet":{"gridTemplateColumns":"repeat(2,minmax(0,1fr))","rowGap":"token:space.10"}}}
 ::::: box {"id":"numbers-n1","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
 :::::: paragraph {"id":"numbers-n1k","props":{"text":"years at the harbour","tag":"dt"},"class":"meta"}

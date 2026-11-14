@@ -13,7 +13,7 @@ description: 'Portraits in a row, each with a name and what they do.'
 ::::: heading {"id":"team-t","props":{"text":"The makers","level":"2"}}
 :::::
 
-::::: link {"id":"team-l","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","icon":"arrow-right","icon_position":"end"},"style":{"base":{"color":"token:color.foreground"}},"class":"meta"}
+::::: button {"id":"team-l","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","variant":"secondary","size":"sm","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 

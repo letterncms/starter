@@ -36,6 +36,17 @@ fields:
       Print: Print
     section: sidebar
   -
+    handle: colour
+    type: select
+    label: Colour
+    options:
+      tide: Tide
+      clay: Clay
+      sun: Sun
+      mist: Mist
+    default: tide
+    section: sidebar
+  -
     handle: client
     type: text
     label: Client

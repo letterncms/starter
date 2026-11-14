@@ -5,16 +5,16 @@ status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 31
 category: Features
-description: 'Three photographs, each with a number, a title and a few lines, set at different heights.'
+description: 'Three photographs on a terracotta section, each with a number, a title and a few lines, set at different heights.'
 ---
 
-::: section {"id":"three-up-s","props":{"width":"wide"},"class":"tint"}
+::: section {"id":"three-up-s","props":{"width":"wide"},"class":"clay"}
 :::: box {"id":"three-up-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(12,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.6"}}}
 ::::: paragraph {"id":"three-up-label","props":{"text":"What we make","tag":"p"},"style":{"base":{"gridColumn":"1 / span 3","paddingTop":"0.6rem"},"tablet":{"gridColumn":"1 / -1","paddingTop":"0"}},"class":"eyebrow"}
 :::::
 
 ::::: box {"id":"three-up-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: heading {"id":"three-up-t","props":{"text":"Three crafts under one roof, so a room can be <em>made as a whole</em>.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
+:::::: heading {"id":"three-up-t","props":{"text":"Three crafts under one roof, so a room can be made as a whole.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
 ::::::
 :::::
 ::::

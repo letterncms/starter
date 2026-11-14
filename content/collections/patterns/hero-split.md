@@ -14,7 +14,7 @@ description: 'A headline, a short introduction and a button beside a tall photog
 :::::: paragraph {"id":"hero-split-k","props":{"text":"The walnut bench","tag":"p"},"class":"eyebrow"}
 ::::::
 
-:::::: heading {"id":"hero-split-h","props":{"text":"One board, <em>one curve</em>, ninety-two years of growth.","level":"1"},"style":{"base":{"fontSize":"token:text.5xl"}}}
+:::::: heading {"id":"hero-split-h","props":{"text":"One board, one curve, ninety-two years of growth.","level":"1"},"style":{"base":{"fontSize":"token:text.5xl"}}}
 ::::::
 
 :::::: paragraph {"id":"hero-split-p","props":{"text":"Cut from a single tree that came down in a storm, steamed and bent over a form so the grain runs unbroken from one foot to the other.","tag":"p"},"style":{"base":{"color":"token:color.muted","fontSize":"token:text.lg","maxWidth":"30em"}}}

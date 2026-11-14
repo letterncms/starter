@@ -5,15 +5,15 @@ status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 22
 category: Features
-description: 'Ruled rows, each with a number, a short title and a sentence or two.'
+description: 'Ruled rows on a terracotta section, each with a number, a short title and a sentence or two.'
 ---
 
-::: section {"id":"principles-s","props":{"width":"wide"}}
-:::: heading {"id":"principles-h","props":{"text":"How we <em>work</em>","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
+::: section {"id":"principles-s","props":{"width":"wide"},"class":"clay"}
+:::: heading {"id":"principles-h","props":{"text":"How we work","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
 ::::
 
 :::: box {"id":"principles-l"}
-::::: box {"id":"principles-r01","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"principles-r01","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"principles-r01n","props":{"text":"01","tag":"p"},"class":"meta"}
 ::::::
 
@@ -24,7 +24,7 @@ description: 'Ruled rows, each with a number, a short title and a sentence or tw
 ::::::
 :::::
 
-::::: box {"id":"principles-r02","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"principles-r02","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"principles-r02n","props":{"text":"02","tag":"p"},"class":"meta"}
 ::::::
 
@@ -35,7 +35,7 @@ description: 'Ruled rows, each with a number, a short title and a sentence or tw
 ::::::
 :::::
 
-::::: box {"id":"principles-r03","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"principles-r03","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"principles-r03n","props":{"text":"03","tag":"p"},"class":"meta"}
 ::::::
 

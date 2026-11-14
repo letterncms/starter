@@ -9,7 +9,7 @@ description: 'A heading over two columns of text, for a story that needs a littl
 ---
 
 ::: section {"id":"text-columns-s","props":{"width":"wide"}}
-:::: heading {"id":"text-columns-h","props":{"text":"The loft was built in 1912 <em>to dry nets</em>.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
+:::: heading {"id":"text-columns-h","props":{"text":"The loft was built in 1912 to dry nets.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
 ::::
 
 :::: columns {"id":"text-columns-c","props":{"layout":"1-1","gap":"token:space.8"},"style":{"base":{"marginTop":"token:space.10"}}}

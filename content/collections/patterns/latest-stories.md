@@ -5,7 +5,7 @@ status: published
 published_at: '2026-11-13T22:03:53+00:00'
 position: 18
 category: Lists
-description: 'The three newest stories from the journal, filled in by themselves.'
+description: 'The three newest stories from the journal as coloured tiles, filled in by themselves.'
 ---
 
 ::: section {"id":"latest-stories-s","props":{"width":"wide"}}
@@ -13,7 +13,7 @@ description: 'The three newest stories from the journal, filled in by themselves
 ::::: heading {"id":"latest-stories-t","props":{"text":"From the journal","level":"2"}}
 :::::
 
-::::: link {"id":"latest-stories-l","props":{"label":"All stories","url":"entry:01m7bf0hdtbd9d9d33m5gp91et","icon":"arrow-right","icon_position":"end"},"style":{"base":{"color":"token:color.foreground"}},"class":"meta"}
+::::: button {"id":"latest-stories-l","props":{"label":"All stories","url":"entry:01m7bf0hdtbd9d9d33m5gp91et","variant":"secondary","size":"sm","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 

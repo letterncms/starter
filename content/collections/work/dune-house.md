@@ -4,6 +4,7 @@ title: 'House on the dune'
 status: published
 published_at: '2026-11-13T22:03:54+00:00'
 position: 0
+colour: mist
 year: '2025'
 cover:
   - 01m7ba38tnx59cazqjsqqqm8te
@@ -57,7 +58,7 @@ discipline: Rooms
 ::: section {"id":"dh-notes","props":{"width":"wide"}}
 :::: grid {"id":"dh-notes-grid","props":{"gap":"token:space.6","min":"16rem","columns":3}}
 ::::: box {"id":"dh-n1","style":{"base":{"gap":"token:space.3","display":"flex","borderTop":"1px solid token:color.border","paddingTop":"token:space.5","flexDirection":"column"}}}
-:::::: heading {"id":"dh-n1-t","props":{"text":"Kitchen","level":"3"},"style":{"base":{"fontSize":"token:text.lg"}}}
+:::::: heading {"id":"dh-n1-t","props":{"text":"Kitchen","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 ::::::
 
 :::::: paragraph {"id":"dh-n1-p","props":{"tag":"p","text":"Four metres of solid oak with no wall cupboards, so the window over the sink could stay as wide as the dune."},"style":{"base":{"color":"token:color.muted"}}}
@@ -65,7 +66,7 @@ discipline: Rooms
 :::::
 
 ::::: box {"id":"dh-n2","style":{"base":{"gap":"token:space.3","display":"flex","borderTop":"1px solid token:color.border","paddingTop":"token:space.5","flexDirection":"column"}}}
-:::::: heading {"id":"dh-n2-t","props":{"text":"Table and chairs","level":"3"},"style":{"base":{"fontSize":"token:text.lg"}}}
+:::::: heading {"id":"dh-n2-t","props":{"text":"Table and chairs","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 ::::::
 
 :::::: paragraph {"id":"dh-n2-p","props":{"tag":"p","text":"A table for ten from boards that were the floor of the old barn, and eight chairs in ash that fold flat for summer."},"style":{"base":{"color":"token:color.muted"}}}
@@ -73,7 +74,7 @@ discipline: Rooms
 :::::
 
 ::::: box {"id":"dh-n3","style":{"base":{"gap":"token:space.3","display":"flex","borderTop":"1px solid token:color.border","paddingTop":"token:space.5","flexDirection":"column"}}}
-:::::: heading {"id":"dh-n3-t","props":{"text":"Tableware","level":"3"},"style":{"base":{"fontSize":"token:text.lg"}}}
+:::::: heading {"id":"dh-n3-t","props":{"text":"Tableware","level":"3"},"style":{"base":{"fontSize":"token:text.2xl"}}}
 ::::::
 
 :::::: paragraph {"id":"dh-n3-p","props":{"tag":"p","text":"Sixty pieces in a grey-green glaze we mixed from the sand below the house."},"style":{"base":{"color":"token:color.muted"}}}

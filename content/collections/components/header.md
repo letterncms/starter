@@ -57,7 +57,7 @@ description: 'The site name, the main menu, sign in once the site has public acc
 :::::: paragraph {"id":"hd-sheet-email","props":{"tag":"p"},"bind":{"text":"globals.studio.email"}}
 ::::::
 
-:::::: paragraph {"id":"hd-sheet-hours","props":{"tag":"p"},"bind":{"text":"globals.studio.hours"}}
+:::::: paragraph {"id":"hd-sheet-hours","props":{"tag":"p"},"bind":{"text":"globals.studio.hours"},"style":{"base":{"whiteSpace":"pre-line"}}}
 ::::::
 :::::
 ::::

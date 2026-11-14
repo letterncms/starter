@@ -21,7 +21,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 ::::
 :::
 
-::: section {"id":"story-page-statement-s","props":{"width":"content"}}
+::: section {"id":"story-page-statement-s","props":{"width":"content"},"class":"sun"}
 :::: paragraph {"id":"story-page-statement-q","props":{"text":"A cup is finished when someone has used it every morning for a year.","tag":"p"},"style":{"base":{"fontFamily":"token:font.serif","fontSize":"token:text.5xl","lineHeight":"1.04","textAlign":"center","textWrap":"balance","maxWidth":"18em","marginInline":"auto"}}}
 ::::
 :::
@@ -60,7 +60,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 ::::
 :::
 
-::: section {"id":"story-page-numbers-s","props":{"width":"wide"}}
+::: section {"id":"story-page-numbers-s","props":{"width":"wide"},"class":"mist"}
 :::: box {"id":"story-page-numbers-g","props":{"tag":"dl"},"style":{"base":{"display":"grid","gridTemplateColumns":"repeat(4,minmax(0,1fr))","gap":"token:space.grid"},"tablet":{"gridTemplateColumns":"repeat(2,minmax(0,1fr))","rowGap":"token:space.10"}}}
 ::::: box {"id":"story-page-numbers-n1","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
 :::::: paragraph {"id":"story-page-numbers-n1k","props":{"text":"years at the harbour","tag":"dt"},"class":"meta"}

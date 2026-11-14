@@ -29,7 +29,7 @@ collections:
 :::::: paragraph {"id":"ps-summary","props":{"tag":"p"},"style":{"base":{"fontSize":"token:text.lg","color":"token:color.muted","lineHeight":"1.5"}},"bind":{"text":"entry.summary","visible":"entry.summary"}}
 ::::::
 
-:::::: link {"id":"ps-back","props":{"label":"All stories","url":"entry:01m7bf0hdtbd9d9d33m5gp91et","icon":"arrow-left"},"class":"meta"}
+:::::: button {"id":"ps-back","props":{"label":"All stories","url":"entry:01m7bf0hdtbd9d9d33m5gp91et","variant":"secondary","size":"sm","icon":"arrow-left","icon_position":"start"}}
 ::::::
 :::::
 

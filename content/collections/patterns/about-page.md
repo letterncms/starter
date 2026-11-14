@@ -8,21 +8,14 @@ category: Pages
 description: 'A page about the people behind the site: a big headline, a story in two columns, the team, how you work and questions.'
 ---
 
-::: section {"id":"about-page-hero-type-s","props":{"width":"wide"},"style":{"base":{"paddingTop":"clamp(2.5rem, 7vw, 7rem)"}}}
-:::: box {"id":"about-page-hero-type-top","style":{"base":{"display":"flex","justifyContent":"space-between","gap":"token:space.6","marginBottom":"token:space.8"},"mobile":{"flexDirection":"column","gap":"token:space.1"}}}
-::::: paragraph {"id":"about-page-hero-type-k","props":{"text":"Furniture, ceramics and rooms","tag":"p"},"class":"eyebrow"}
-:::::
+::: section {"id":"about-page-hero-type-s","props":{"width":"wide"},"style":{"base":{"paddingTop":"clamp(2.5rem, 7vw, 7rem)"}},"class":"tide"}
 
-::::: paragraph {"id":"about-page-hero-type-m","props":{"text":"Open Thursday to Saturday","tag":"p"},"class":"meta"}
-:::::
-::::
-
-:::: heading {"id":"about-page-hero-type-h","props":{"text":"Things made slowly, <em>to be used for a long time.</em>","level":"1"},"style":{"base":{"maxWidth":"11.5em"}},"class":"display"}
+:::: heading {"id":"about-page-hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"style":{"base":{"maxWidth":"11.5em"}},"class":"display"}
 ::::
 :::
 
 ::: section {"id":"about-page-text-columns-s","props":{"width":"wide"}}
-:::: heading {"id":"about-page-text-columns-h","props":{"text":"The loft was built in 1912 <em>to dry nets</em>.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
+:::: heading {"id":"about-page-text-columns-h","props":{"text":"The loft was built in 1912 to dry nets.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
 ::::
 
 :::: columns {"id":"about-page-text-columns-c","props":{"layout":"1-1","gap":"token:space.8"},"style":{"base":{"marginTop":"token:space.10"}}}
@@ -43,7 +36,7 @@ description: 'A page about the people behind the site: a big headline, a story i
 ::::: heading {"id":"about-page-team-t","props":{"text":"The makers","level":"2"}}
 :::::
 
-::::: link {"id":"about-page-team-l","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","icon":"arrow-right","icon_position":"end"},"style":{"base":{"color":"token:color.foreground"}},"class":"meta"}
+::::: button {"id":"about-page-team-l","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","variant":"secondary","size":"sm","icon":"arrow-right","icon_position":"end"}}
 :::::
 ::::
 
@@ -102,12 +95,12 @@ description: 'A page about the people behind the site: a big headline, a story i
 ::::
 :::
 
-::: section {"id":"about-page-principles-s","props":{"width":"wide"}}
-:::: heading {"id":"about-page-principles-h","props":{"text":"How we <em>work</em>","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
+::: section {"id":"about-page-principles-s","props":{"width":"wide"},"class":"clay"}
+:::: heading {"id":"about-page-principles-h","props":{"text":"How we work","level":"2"},"style":{"base":{"marginBottom":"token:space.12"}}}
 ::::
 
 :::: box {"id":"about-page-principles-l"}
-::::: box {"id":"about-page-principles-r01","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"about-page-principles-r01","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"about-page-principles-r01n","props":{"text":"01","tag":"p"},"class":"meta"}
 ::::::
 
@@ -118,7 +111,7 @@ description: 'A page about the people behind the site: a big headline, a story i
 ::::::
 :::::
 
-::::: box {"id":"about-page-principles-r02","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"about-page-principles-r02","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"about-page-principles-r02n","props":{"text":"02","tag":"p"},"class":"meta"}
 ::::::
 
@@ -129,7 +122,7 @@ description: 'A page about the people behind the site: a big headline, a story i
 ::::::
 :::::
 
-::::: box {"id":"about-page-principles-r03","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,2fr) minmax(0,4fr) minmax(0,6fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"minmax(0,1fr) minmax(0,5fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
+::::: box {"id":"about-page-principles-r03","style":{"base":{"display":"grid","gridTemplateColumns":"3rem minmax(0,5fr) minmax(0,7fr)","gap":"token:space.grid","paddingBlock":"token:space.8","borderTop":"1px solid token:color.border","alignItems":"baseline"},"tablet":{"gridTemplateColumns":"3rem minmax(0,1fr)"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.3"}}}
 :::::: paragraph {"id":"about-page-principles-r03n","props":{"text":"03","tag":"p"},"class":"meta"}
 ::::::
 

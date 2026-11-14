@@ -20,7 +20,7 @@ description: 'A film with sound and controls beside a heading and a few lines ab
 ::::::: paragraph {"id":"film-feature-k","props":{"text":"Film","tag":"p"},"class":"eyebrow"}
 :::::::
 
-::::::: heading {"id":"film-feature-h","props":{"text":"Centering, <em>slowly</em>","level":"2"},"style":{"base":{"fontSize":"token:text.4xl"}}}
+::::::: heading {"id":"film-feature-h","props":{"text":"Centering, slowly","level":"2"},"style":{"base":{"fontSize":"token:text.4xl"}}}
 :::::::
 
 ::::::: paragraph {"id":"film-feature-p","props":{"text":"Every pot starts the same way: a lump of clay pushed into the middle of the wheel until it stops wobbling. It takes a minute to learn and a lifetime to do quickly.","tag":"p"},"style":{"base":{"color":"token:color.muted"}}}

@@ -14,7 +14,7 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 :::::: paragraph {"id":"landing-page-hero-split-k","props":{"text":"The walnut bench","tag":"p"},"class":"eyebrow"}
 ::::::
 
-:::::: heading {"id":"landing-page-hero-split-h","props":{"text":"One board, <em>one curve</em>, ninety-two years of growth.","level":"1"},"style":{"base":{"fontSize":"token:text.5xl"}}}
+:::::: heading {"id":"landing-page-hero-split-h","props":{"text":"One board, one curve, ninety-two years of growth.","level":"1"},"style":{"base":{"fontSize":"token:text.5xl"}}}
 ::::::
 
 :::::: paragraph {"id":"landing-page-hero-split-p","props":{"text":"Cut from a single tree that came down in a storm, steamed and bent over a form so the grain runs unbroken from one foot to the other.","tag":"p"},"style":{"base":{"color":"token:color.muted","fontSize":"token:text.lg","maxWidth":"30em"}}}
@@ -40,7 +40,7 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 :::::
 
 ::::: box {"id":"landing-page-intro-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: paragraph {"id":"landing-page-intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have <em>fewer, better things</em>.","tag":"p"},"style":{"base":{"fontSize":"token:text.3xl","lineHeight":"1.18","maxWidth":"22em"}},"class":"lede"}
+:::::: paragraph {"id":"landing-page-intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have fewer, better things.","tag":"p"},"style":{"base":{"fontSize":"token:text.3xl","lineHeight":"1.18","maxWidth":"22em"}},"class":"lede"}
 ::::::
 
 :::::: button {"id":"landing-page-intro-b","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","variant":"secondary","icon":"arrow-right","icon_position":"end"}}
@@ -49,13 +49,13 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-three-up-s","props":{"width":"wide"},"class":"tint"}
+::: section {"id":"landing-page-three-up-s","props":{"width":"wide"},"class":"clay"}
 :::: box {"id":"landing-page-three-up-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(12,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.6"}}}
 ::::: paragraph {"id":"landing-page-three-up-label","props":{"text":"What we make","tag":"p"},"style":{"base":{"gridColumn":"1 / span 3","paddingTop":"0.6rem"},"tablet":{"gridColumn":"1 / -1","paddingTop":"0"}},"class":"eyebrow"}
 :::::
 
 ::::: box {"id":"landing-page-three-up-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: heading {"id":"landing-page-three-up-t","props":{"text":"Three crafts under one roof, so a room can be <em>made as a whole</em>.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
+:::::: heading {"id":"landing-page-three-up-t","props":{"text":"Three crafts under one roof, so a room can be made as a whole.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
 ::::::
 :::::
 ::::
@@ -105,7 +105,7 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-testimonials-s","props":{"width":"wide"},"class":"tint"}
+::: section {"id":"landing-page-testimonials-s","props":{"width":"wide"},"class":"mist"}
 :::: box {"id":"landing-page-testimonials-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
 ::::: heading {"id":"landing-page-testimonials-t","props":{"text":"What people say","level":"2"}}
 :::::
@@ -168,9 +168,9 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-cta-band-s","props":{"width":"wide"},"class":"band"}
+::: section {"id":"landing-page-cta-band-s","props":{"width":"wide"},"class":"tide"}
 :::: box {"id":"landing-page-cta-band-g","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,8fr) minmax(0,4fr)","gap":"token:space.8","alignItems":"end"},"tablet":{"gridTemplateColumns":"minmax(0,1fr)"}}}
-::::: heading {"id":"landing-page-cta-band-h","props":{"text":"Come and see <em>the workshop</em>.","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
+::::: heading {"id":"landing-page-cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
 :::::
 
 ::::: buttons {"id":"landing-page-cta-band-b","props":{"justify":"end"},"style":{"tablet":{"justifyContent":"flex-start"}}}

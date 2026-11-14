@@ -1,46 +1,52 @@
-/* Section styles: give a Section or a Box the class "band" (dark) or "tint" (warm grey),
-   under Content → Advanced → Classes. Text, muted text, lines and buttons inside follow. */
-.band {
-  --color-foreground: var(--color-band-foreground);
-  --color-muted: var(--color-band-muted);
-  --color-border: rgb(239 237 231 / 0.16);
-  --color-primary: var(--color-band-foreground);
-  --color-primary-foreground: var(--color-band);
-  --color-surface: rgb(239 237 231 / 0.06);
-  --color-raised: rgb(239 237 231 / 0.06);
-  background-color: var(--color-band);
-  color: var(--color-band-foreground);
+/* Colour sections. Give a Section or a Box one of these classes, under Content → Advanced → Classes:
+   tide (deep sea green), clay (terracotta), sun (yellow), mist (pale blue) or band (near black).
+   Text, muted text, lines and buttons inside take the section's colours. A collection can set one
+   from its entries too: a state named after the colour (is-tide, is-clay…) does the same. */
+.tide, .is-tide { --scheme: var(--color-tide); --scheme-text: var(--color-tide-foreground); }
+.clay, .is-clay { --scheme: var(--color-clay); --scheme-text: var(--color-clay-foreground); }
+.sun, .is-sun { --scheme: var(--color-sun); --scheme-text: var(--color-sun-foreground); }
+.mist, .is-mist { --scheme: var(--color-mist); --scheme-text: var(--color-mist-foreground); }
+.band, .is-band { --scheme: var(--color-band); --scheme-text: var(--color-band-foreground); }
+:is(.tide, .clay, .sun, .mist, .band, .is-tide, .is-clay, .is-sun, .is-mist, .is-band) {
+  --color-foreground: var(--scheme-text);
+  --color-muted: color-mix(in srgb, var(--scheme-text) 72%, var(--scheme));
+  --color-border: color-mix(in srgb, var(--scheme-text) 22%, var(--scheme));
+  --color-surface: color-mix(in srgb, var(--scheme-text) 8%, var(--scheme));
+  --color-raised: color-mix(in srgb, var(--scheme-text) 10%, var(--scheme));
+  --color-primary: var(--scheme-text);
+  --color-primary-foreground: var(--scheme);
+  background-color: var(--scheme);
+  color: var(--scheme-text);
 }
-.tint { background-color: var(--color-tint); }
+
+/* Over a photograph: the class on-photo turns text, lines and buttons light. */
+.on-photo {
+  --color-foreground: #fff;
+  --color-muted: rgb(255 255 255 / 0.8);
+  --color-border: rgb(255 255 255 / 0.3);
+  --color-primary: #fff;
+  --color-primary-foreground: #111616;
+  color: #fff;
+}
 
 html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
-body { font-optical-sizing: auto; font-feature-settings: "cv11", "ss03"; }
+body { font-optical-sizing: auto; font-synthesis: none; }
 
-/* Photographs and films fill the box they are given, with square corners. */
+/* Photographs and films fill the box they are given. */
 .cms-image img, .cms-video video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .cms-gallery__item img, .cms-gallery__item picture, .cms-gallery__item a { border-radius: 0; }
 
-/* Quotations are set in the serif, large, without a rule. */
+/* Quotations are set whole in the serif, large, without a rule. */
 .cms-quote blockquote, .cms-prose blockquote:where(:not(.cms-box, .cms-repeat)) {
   border: 0;
   padding: 0;
-  font-family: var(--font-serif);
-  font-size: var(--text-3xl);
-  line-height: 1.12;
-  letter-spacing: -0.005em;
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
   text-wrap: balance;
 }
 .cms-quote figcaption { margin-top: 1.25rem; }
 
 /* Tables read at the size of the text around them. */
 .cms-table th, .cms-table td { font-size: inherit; padding-block: 0.9em; }
-
-/* Over a photograph: give the box the class "on-photo". Text, lines and buttons turn light. */
-.on-photo {
-  --color-foreground: #fff;
-  --color-muted: rgb(255 255 255 / 0.78);
-  --color-border: rgb(255 255 255 / 0.3);
-  --color-primary: #fff;
-  --color-primary-foreground: #191816;
-  color: #fff;
-}
