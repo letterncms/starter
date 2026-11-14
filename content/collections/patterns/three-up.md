@@ -9,56 +9,56 @@ description: 'Three photographs on a terracotta section, each with a number, a t
 ---
 
 ::: section {"id":"three-up-s","props":{"width":"wide"},"class":"clay"}
-:::: box {"id":"three-up-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(12,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.6"}}}
-::::: paragraph {"id":"three-up-label","props":{"text":"What we make","tag":"p"},"style":{"base":{"gridColumn":"1 / span 3","paddingTop":"0.6rem"},"tablet":{"gridColumn":"1 / -1","paddingTop":"0"}},"class":"eyebrow"}
+:::: box {"id":"three-up-g","class":"grid grid-cols-12 gap-x-columns gap-y-6"}
+::::: paragraph {"id":"three-up-label","props":{"text":"What we make","tag":"p"},"class":"eyebrow col-span-3 col-start-1 pt-[0.6rem] max-lg:col-span-full max-lg:pt-0"}
 :::::
 
-::::: box {"id":"three-up-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: heading {"id":"three-up-t","props":{"text":"Three crafts under one roof, so a room can be made as a whole.","level":"2"},"style":{"base":{"maxWidth":"16em"}}}
+::::: box {"id":"three-up-text","class":"col-start-5 -col-end-1 flex flex-col items-start gap-8 max-lg:col-span-full"}
+:::::: heading {"id":"three-up-t","props":{"text":"Three crafts under one roof, so a room can be made as a whole.","level":"2"},"class":"max-w-[16em]"}
 ::::::
 :::::
 ::::
 
-:::: box {"id":"bdkdlx2rwup","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(3,minmax(0,1fr))","gap":"token:space.grid","marginTop":"token:space.12"},"tablet":{"gridTemplateColumns":"minmax(0,1fr)","gap":"token:space.12"}}}
-::::: box {"id":"three-up-f1","props":{"tag":"article"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.4"}}}
+:::: box {"id":"bdkdlx2rwup","class":"mt-12 grid grid-cols-3 gap-columns max-lg:grid-cols-1 max-lg:gap-12"}
+::::: box {"id":"three-up-f1","props":{"tag":"article"},"class":"flex flex-col gap-4"}
 :::::: image {"id":"three-up-f1i","props":{"image":["01m7ba38tbnnp5x3srt37wanq2"],"alt":"Hands marking a line on an oak board.","aspect":"4/5","sizes":"(min-width: 64rem) 32vw, 100vw"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f1n","props":{"text":"01","tag":"p"},"style":{"base":{"marginTop":"token:space.2"}},"class":"meta"}
+:::::: paragraph {"id":"three-up-f1n","props":{"text":"01","tag":"p"},"class":"meta mt-2"}
 ::::::
 
 :::::: heading {"id":"three-up-f1t","props":{"text":"Furniture","level":"3"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f1p","props":{"text":"Tables, benches and chairs in oak, ash and walnut, joined by hand and finished with oil.","tag":"p"},"style":{"base":{"color":"token:color.muted","maxWidth":"26em"}}}
+:::::: paragraph {"id":"three-up-f1p","props":{"text":"Tables, benches and chairs in oak, ash and walnut, joined by hand and finished with oil.","tag":"p"},"class":"max-w-[26em] text-muted"}
 ::::::
 :::::
 
-::::: box {"id":"three-up-f2","props":{"tag":"article"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.4","paddingTop":"token:space.16"},"tablet":{"paddingTop":"0"}}}
+::::: box {"id":"three-up-f2","props":{"tag":"article"},"class":"flex flex-col gap-4 pt-16 max-lg:pt-0"}
 :::::: image {"id":"three-up-f2i","props":{"image":["01m7ba38te6wbdn2r5xh441w5w"],"alt":"Wet hands shaping a bowl on a spinning wheel.","aspect":"4/5","sizes":"(min-width: 64rem) 32vw, 100vw"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f2n","props":{"text":"02","tag":"p"},"style":{"base":{"marginTop":"token:space.2"}},"class":"meta"}
+:::::: paragraph {"id":"three-up-f2n","props":{"text":"02","tag":"p"},"class":"meta mt-2"}
 ::::::
 
 :::::: heading {"id":"three-up-f2t","props":{"text":"Ceramics","level":"3"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f2p","props":{"text":"Plates, bowls and jugs thrown on the wheel and glazed in the colours of the coast.","tag":"p"},"style":{"base":{"color":"token:color.muted","maxWidth":"26em"}}}
+:::::: paragraph {"id":"three-up-f2p","props":{"text":"Plates, bowls and jugs thrown on the wheel and glazed in the colours of the coast.","tag":"p"},"class":"max-w-[26em] text-muted"}
 ::::::
 :::::
 
-::::: box {"id":"three-up-f3","props":{"tag":"article"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.4","paddingTop":"token:space.32"},"tablet":{"paddingTop":"0"}}}
+::::: box {"id":"three-up-f3","props":{"tag":"article"},"class":"flex flex-col gap-4 pt-32 max-lg:pt-0"}
 :::::: image {"id":"three-up-f3i","props":{"image":["01m7ba38tj3beebgr7h3v7n7w8"],"alt":"A low wooden table and straw cushions in a quiet room.","aspect":"4/5","sizes":"(min-width: 64rem) 32vw, 100vw"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f3n","props":{"text":"03","tag":"p"},"style":{"base":{"marginTop":"token:space.2"}},"class":"meta"}
+:::::: paragraph {"id":"three-up-f3n","props":{"text":"03","tag":"p"},"class":"meta mt-2"}
 ::::::
 
 :::::: heading {"id":"three-up-f3t","props":{"text":"Rooms","level":"3"}}
 ::::::
 
-:::::: paragraph {"id":"three-up-f3p","props":{"text":"Kitchens, cafés and quiet places to read, with the furniture made for them.","tag":"p"},"style":{"base":{"color":"token:color.muted","maxWidth":"26em"}}}
+:::::: paragraph {"id":"three-up-f3p","props":{"text":"Kitchens, cafés and quiet places to read, with the furniture made for them.","tag":"p"},"class":"max-w-[26em] text-muted"}
 ::::::
 :::::
 ::::

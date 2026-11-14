@@ -9,12 +9,12 @@ description: 'A small label on the left and a large opening paragraph on the rig
 ---
 
 ::: section {"id":"intro-s","props":{"width":"wide"}}
-:::: box {"id":"intro-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(12,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.6"}}}
-::::: paragraph {"id":"intro-label","props":{"text":"The studio","tag":"p"},"style":{"base":{"gridColumn":"1 / span 3","paddingTop":"0.6rem"},"tablet":{"gridColumn":"1 / -1","paddingTop":"0"}},"class":"eyebrow"}
+:::: box {"id":"intro-g","class":"grid grid-cols-12 gap-x-columns gap-y-6"}
+::::: paragraph {"id":"intro-label","props":{"text":"The studio","tag":"p"},"class":"eyebrow col-span-3 col-start-1 pt-[0.6rem] max-lg:col-span-full max-lg:pt-0"}
 :::::
 
-::::: box {"id":"intro-text","style":{"base":{"gridColumn":"5 / -1","display":"flex","flexDirection":"column","gap":"token:space.8","alignItems":"flex-start"},"tablet":{"gridColumn":"1 / -1"}}}
-:::::: paragraph {"id":"intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have fewer, better things.","tag":"p"},"style":{"base":{"fontSize":"token:text.3xl","lineHeight":"1.18","maxWidth":"22em"}},"class":"lede"}
+::::: box {"id":"intro-text","class":"col-start-5 -col-end-1 flex flex-col items-start gap-8 max-lg:col-span-full"}
+:::::: paragraph {"id":"intro-lede","props":{"text":"We are five makers in an old net loft by the harbour, making furniture, tableware and rooms for people who would rather have fewer, better things.","tag":"p"},"class":"lede max-w-[22em] text-3xl leading-[1.18]"}
 ::::::
 
 :::::: button {"id":"intro-b","props":{"label":"About the studio","url":"entry:01m7bf0hdtbd9d9d33m5gp91ev","variant":"secondary","icon":"arrow-right","icon_position":"end"}}

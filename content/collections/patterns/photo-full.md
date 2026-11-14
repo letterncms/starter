@@ -8,7 +8,7 @@ category: Media
 description: 'One photograph from edge to edge, as a pause between sections.'
 ---
 
-::: section {"id":"photo-full-s","props":{"width":"full"},"style":{"base":{"paddingBlock":"0"}}}
-:::: image {"id":"photo-full-i","props":{"image":["01m7ba38twytx4z8ey0ypttrch"],"alt":"A wide bay with surf rolling onto a sandy beach below the dunes.","sizes":"100vw"},"style":{"base":{"aspectRatio":"21/9","overflow":"clip"},"mobile":{"aspectRatio":"4/3"}}}
+::: section {"id":"photo-full-s","props":{"width":"full"},"class":"py-0"}
+:::: image {"id":"photo-full-i","props":{"image":["01m7ba38twytx4z8ey0ypttrch"],"alt":"A wide bay with surf rolling onto a sandy beach below the dunes.","sizes":"100vw"},"class":"aspect-21/9 overflow-clip max-md:aspect-4/3"}
 ::::
 :::

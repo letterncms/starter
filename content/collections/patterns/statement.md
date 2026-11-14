@@ -9,6 +9,6 @@ description: 'One sentence, centred and set large in the serif, on a yellow sect
 ---
 
 ::: section {"id":"statement-s","props":{"width":"content"},"class":"sun"}
-:::: paragraph {"id":"statement-q","props":{"text":"A cup is finished when someone has used it every morning for a year.","tag":"p"},"style":{"base":{"fontFamily":"token:font.serif","fontSize":"token:text.5xl","lineHeight":"1.04","textAlign":"center","textWrap":"balance","maxWidth":"18em","marginInline":"auto"}}}
+:::: paragraph {"id":"statement-q","props":{"text":"A cup is finished when someone has used it every morning for a year.","tag":"p"},"class":"mx-auto max-w-[18em] text-center font-serif text-5xl leading-[1.04] text-balance"}
 ::::
 :::

@@ -53,18 +53,18 @@ props:
     default: 4/3
 ---
 
-::: box {"id":"pc","props":{"tag":"article"},"style":{"base":{"position":"relative","display":"flex","flexDirection":"column","gap":"token:space.5","padding":"token:space.4","paddingBottom":"token:space.6","borderRadius":"token:radius.lg","textDecorationLine":"none","transition":"transform 500ms cubic-bezier(.2,.8,.2,1)"},"group-hover":{"transform":"translateY(-4px)"}},"bind":{"link":"props.link","state:tide":"props.colour|is:tide","state:clay":"props.colour|is:clay","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Project card"}
-:::: box {"id":"pc-media","style":{"base":{"overflow":"clip","borderRadius":"token:radius.md"}}}
-::::: image {"id":"pc-image","props":{"sizes":"(min-width: 64rem) 46vw, 100vw"},"style":{"base":{"transition":"transform 900ms cubic-bezier(.2,.8,.2,1)"},"group-hover":{"transform":"scale(1.03)"}},"bind":{"image":"props.image","aspect":"props.aspect","visible":"props.image"}}
+::: box {"id":"pc","props":{"tag":"article"},"class":"relative flex flex-col gap-5 rounded-lg p-4 pb-6 transition-transform duration-500 ease-out group-hover:-translate-y-1","bind":{"link":"props.link","state:tide":"props.colour|is:tide","state:clay":"props.colour|is:clay","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Project card"}
+:::: box {"id":"pc-media","class":"overflow-clip rounded-md"}
+::::: image {"id":"pc-image","props":{"sizes":"(min-width: 64rem) 46vw, 100vw"},"class":"transition-transform duration-900 ease-out group-hover:scale-103","bind":{"image":"props.image","aspect":"props.aspect","visible":"props.image"}}
 :::::
 
 ::::
 
-:::: box {"id":"pc-text","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"baseline","gap":"token:space.4","paddingInline":"token:space.2"}}}
-::::: heading {"id":"pc-title","props":{"level":"3"},"style":{"base":{"fontFamily":"token:font.display","fontSize":"token:text.3xl","lineHeight":"1","letterSpacing":"token:tracking.tight","fontWeight":"token:weight.regular"}},"bind":{"text":"props.title"}}
+:::: box {"id":"pc-text","class":"flex items-baseline justify-between gap-4 px-2"}
+::::: heading {"id":"pc-title","props":{"level":"3"},"class":"font-display text-3xl leading-none font-normal tracking-tight","bind":{"text":"props.title"}}
 :::::
 
-::::: box {"id":"pc-meta","class":"meta","style":{"base":{"display":"flex","gap":"token:space.3","flexShrink":"0","color":"token:color.muted"}}}
+::::: box {"id":"pc-meta","class":"meta flex shrink-0 gap-3"}
 :::::: paragraph {"id":"pc-discipline","props":{"text":"","tag":"span"},"bind":{"text":"props.discipline","visible":"props.discipline"}}
 ::::::
 

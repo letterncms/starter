@@ -1,0 +1,56 @@
+{
+    "fonts": [
+        {
+            "family": "Inter",
+            "src": "fonts/inter-100-900.woff2",
+            "weight": "100 900",
+            "style": "normal",
+            "preload": true,
+            "fallback": "Arial",
+            "sizeAdjust": "107.35%",
+            "ascentOverride": "90.25%",
+            "descentOverride": "22.47%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Inter",
+            "src": "fonts/inter-100-900-italic.woff2",
+            "weight": "100 900",
+            "style": "italic",
+            "preload": false,
+            "fallback": "Arial",
+            "sizeAdjust": "108.01%",
+            "ascentOverride": "89.69%",
+            "descentOverride": "22.33%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Instrument Serif",
+            "src": "fonts/instrument-serif-400-italic.woff2",
+            "weight": "400",
+            "style": "italic",
+            "preload": false,
+            "fallback": "Times New Roman",
+            "sizeAdjust": "88.98%",
+            "ascentOverride": "111.26%",
+            "descentOverride": "34.84%",
+            "lineGapOverride": "0%"
+        },
+        {
+            "family": "Instrument Serif",
+            "src": "fonts/instrument-serif-400.woff2",
+            "weight": "400",
+            "style": "normal",
+            "preload": true,
+            "fallback": "Times New Roman",
+            "sizeAdjust": "84.33%",
+            "ascentOverride": "117.39%",
+            "descentOverride": "36.76%",
+            "lineGapOverride": "0%"
+        }
+    ],
+    "transition": {
+        "type": "fade",
+        "duration": 0.25
+    }
+}

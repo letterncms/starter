@@ -8,16 +8,16 @@ category: Heroes
 description: 'A headline, a short introduction and a button beside a tall photograph.'
 ---
 
-::: section {"id":"hero-split-s","props":{"width":"wide"},"style":{"base":{"paddingTop":"clamp(2rem, 5vw, 5rem)"}}}
-:::: box {"id":"hero-split-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(12,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.10"}}}
-::::: box {"id":"hero-split-t","style":{"base":{"gridColumn":"1 / span 5","display":"flex","flexDirection":"column","gap":"token:space.6","alignSelf":"center"},"tablet":{"gridColumn":"1 / -1"}}}
+::: section {"id":"hero-split-s","props":{"width":"wide"},"class":"pt-[clamp(2rem,5vw,5rem)]"}
+:::: box {"id":"hero-split-g","class":"grid grid-cols-12 gap-x-columns gap-y-10"}
+::::: box {"id":"hero-split-t","class":"col-span-5 col-start-1 flex flex-col gap-6 self-center max-lg:col-span-full"}
 :::::: paragraph {"id":"hero-split-k","props":{"text":"The walnut bench","tag":"p"},"class":"eyebrow"}
 ::::::
 
-:::::: heading {"id":"hero-split-h","props":{"text":"One board, one curve, ninety-two years of growth.","level":"1"},"style":{"base":{"fontSize":"token:text.5xl"}}}
+:::::: heading {"id":"hero-split-h","props":{"text":"One board, one curve, ninety-two years of growth.","level":"1"},"class":"text-5xl"}
 ::::::
 
-:::::: paragraph {"id":"hero-split-p","props":{"text":"Cut from a single tree that came down in a storm, steamed and bent over a form so the grain runs unbroken from one foot to the other.","tag":"p"},"style":{"base":{"color":"token:color.muted","fontSize":"token:text.lg","maxWidth":"30em"}}}
+:::::: paragraph {"id":"hero-split-p","props":{"text":"Cut from a single tree that came down in a storm, steamed and bent over a form so the grain runs unbroken from one foot to the other.","tag":"p"},"class":"max-w-[30em] text-lg text-muted"}
 ::::::
 
 :::::: buttons {"id":"hero-split-b"}
@@ -29,7 +29,7 @@ description: 'A headline, a short introduction and a button beside a tall photog
 ::::::
 :::::
 
-::::: image {"id":"hero-split-i","props":{"image":["01m7ba38th17jhcdd81dzeyb34"],"alt":"A curved bench of solid walnut against a plaster wall.","aspect":"4/5","sizes":"(min-width: 64rem) 50vw, 100vw"},"style":{"base":{"gridColumn":"7 / -1"},"tablet":{"gridColumn":"1 / -1"}}}
+::::: image {"id":"hero-split-i","props":{"image":["01m7ba38th17jhcdd81dzeyb34"],"alt":"A curved bench of solid walnut against a plaster wall.","aspect":"4/5","sizes":"(min-width: 64rem) 50vw, 100vw"},"class":"col-start-7 -col-end-1 max-lg:col-span-full"}
 :::::
 ::::
 :::

@@ -9,12 +9,12 @@ description: 'A row of photographs with captions to step through, with buttons a
 ---
 
 ::: section {"id":"carousel-s","props":{"width":"wide"}}
-:::: box {"id":"carousel-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
+:::: box {"id":"carousel-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"carousel-t","props":{"text":"Along the coast path","level":"2"}}
 :::::
 ::::
 
-:::: carousel {"id":"carousel-c","props":{"per_view":"3","gap":"token:space.6","label":"Photographs of the coast path"},"style":{"base":{"marginTop":"token:space.10"}}}
+:::: carousel {"id":"carousel-c","props":{"per_view":"3","gap":"6","label":"Photographs of the coast path"},"class":"mt-10"}
 ::::: image {"id":"carousel-i1","props":{"image":["01m7ba38tsjqd1ph2hd493jaqq"],"alt":"A wooden gate on a green coast path above the sea.","caption":"March, the gate above the bay.","aspect":"4/5"}}
 :::::
 

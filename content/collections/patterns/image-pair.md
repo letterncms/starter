@@ -9,7 +9,7 @@ description: 'A wide and a tall photograph side by side, each with a caption, al
 ---
 
 ::: section {"id":"image-pair-s","props":{"width":"wide"}}
-:::: columns {"id":"image-pair-c","props":{"layout":"3-2","gap":"token:space.6","align":"end"}}
+:::: columns {"id":"image-pair-c","props":{"layout":"3-2","gap":"6","align":"end"}}
 ::::: column {"id":"image-pair-c1"}
 :::::: image {"id":"image-pair-i1","props":{"image":["01m7ba38tmyq5bvk5hn8t6mt0g"],"alt":"A sunroom with a round table, wooden chairs and plants.","caption":"The garden room, with chairs in ash.","aspect":"4/3","sizes":"(min-width: 64rem) 58vw, 100vw"}}
 ::::::

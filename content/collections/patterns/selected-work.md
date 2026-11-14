@@ -9,7 +9,7 @@ description: 'Projects as coloured tiles in two staggered columns, filled in fro
 ---
 
 ::: section {"id":"selected-work-s","props":{"width":"wide"}}
-:::: box {"id":"selected-work-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
+:::: box {"id":"selected-work-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"selected-work-t","props":{"text":"Selected work","level":"2"}}
 :::::
 
@@ -17,8 +17,8 @@ description: 'Projects as coloured tiles in two staggered columns, filled in fro
 :::::
 ::::
 
-:::: repeat {"id":"selected-work-r","props":{"source":"entries","collection":"work","sort":"position","limit":4},"style":{"base":{"display":"grid","gridTemplateColumns":"repeat(2,minmax(0,1fr))","columnGap":"token:space.grid","rowGap":"token:space.block","marginTop":"token:space.12"},"mobile":{"gridTemplateColumns":"minmax(0,1fr)"}}}
-::::: box {"id":"selected-work-i","style":{"even":{"paddingTop":"clamp(0rem, 12vw, 12rem)"},"mobile:even":{"paddingTop":"0"}}}
+:::: repeat {"id":"selected-work-r","props":{"source":"entries","collection":"work","sort":"position","limit":4},"class":"mt-12 grid grid-cols-2 gap-x-columns gap-y-blocks max-md:grid-cols-1"}
+::::: box {"id":"selected-work-i","class":"even:pt-[clamp(0rem,12vw,12rem)] max-md:even:pt-0"}
 :::::: component {"id":"selected-work-c","props":{"ref":"project-card","values":{"aspect":"4/5"}},"bind":{"values.title":"item.title","values.image":"item.cover","values.link":"item.url","values.discipline":"item.discipline","values.colour":"item.colour","values.year":"item.year"}}
 ::::::
 :::::

@@ -9,13 +9,13 @@ description: 'Four photographs in a row, numbered, for a process from start to f
 ---
 
 ::: section {"id":"steps-s","props":{"width":"wide"}}
-:::: box {"id":"steps-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
+:::: box {"id":"steps-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"steps-t","props":{"text":"From the tree","level":"2"}}
 :::::
 ::::
 
-:::: grid {"id":"steps-g","props":{"columns":4,"min":"12rem","gap":"token:space.6"},"style":{"base":{"marginTop":"token:space.10"}}}
-::::: box {"id":"steps-s1","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+:::: grid {"id":"steps-g","props":{"columns":4,"min":"12rem","gap":"6"},"class":"mt-10"}
+::::: box {"id":"steps-s1","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"steps-s1i","props":{"image":["01m7ba38v6dcf5vymya4xd4q81"],"alt":"Stacked air-dried timber.","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
@@ -23,7 +23,7 @@ description: 'Four photographs in a row, numbered, for a process from start to f
 ::::::
 :::::
 
-::::: box {"id":"steps-s2","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"steps-s2","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"steps-s2i","props":{"image":["01m7ba38tbnnp5x3srt37wanq2"],"alt":"Hands marking a board.","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
@@ -31,7 +31,7 @@ description: 'Four photographs in a row, numbered, for a process from start to f
 ::::::
 :::::
 
-::::: box {"id":"steps-s3","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"steps-s3","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"steps-s3i","props":{"image":["01m7ba38tcqyafa0hhbc6zcj13"],"alt":"A chisel cutting into wood.","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
@@ -39,7 +39,7 @@ description: 'Four photographs in a row, numbered, for a process from start to f
 ::::::
 :::::
 
-::::: box {"id":"steps-s4","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"steps-s4","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"steps-s4i","props":{"image":["01m7ba38th17jhcdd81dzeyb34"],"alt":"The finished walnut bench.","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 

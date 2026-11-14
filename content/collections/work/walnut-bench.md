@@ -15,7 +15,7 @@ discipline: Furniture
 ---
 
 ::: section {"id":"wb-intro","props":{"width":"wide"}}
-:::: columns {"id":"wb-intro-cols","props":{"gap":"token:space.6","stack":"lg","layout":"1-2"}}
+:::: columns {"id":"wb-intro-cols","props":{"gap":"6","stack":"lg","layout":"1-2"}}
 ::::: column {"id":"wb-intro-c1"}
 :::::: paragraph {"id":"wb-intro-label","props":{"tag":"p","text":"From the tree"},"class":"eyebrow"}
 ::::::
@@ -25,15 +25,15 @@ discipline: Furniture
 :::::: paragraph {"id":"wb-intro-lede","props":{"tag":"p","text":"The walnut came down in a storm two winters ago, at a farm forty kilometres inland. We bought the whole trunk."},"class":"lede"}
 ::::::
 
-:::::: paragraph {"id":"wb-intro-p","props":{"tag":"p","text":"It was sawn into boards, stacked with spacers in the yard and left alone for a year. The bench is cut from the widest of them, steamed and bent over a form in one curve, so the grain runs unbroken from one foot to the other."},"style":{"base":{"color":"token:color.muted","maxWidth":"34em"}}}
+:::::: paragraph {"id":"wb-intro-p","props":{"tag":"p","text":"It was sawn into boards, stacked with spacers in the yard and left alone for a year. The bench is cut from the widest of them, steamed and bent over a form in one curve, so the grain runs unbroken from one foot to the other."},"class":"max-w-[34em] text-muted"}
 ::::::
 :::::
 ::::
 :::
 
-::: section {"id":"wb-steps","props":{"width":"wide"},"style":{"base":{"paddingTop":"0"}}}
-:::: grid {"id":"wb-steps-grid","props":{"gap":"token:space.6","min":"12rem","columns":4}}
-::::: box {"id":"wb-s1","props":{"tag":"figure"},"style":{"base":{"gap":"token:space.3","display":"flex","flexDirection":"column"}}}
+::: section {"id":"wb-steps","props":{"width":"wide"},"class":"pt-0"}
+:::: grid {"id":"wb-steps-grid","props":{"gap":"6","min":"12rem","columns":4}}
+::::: box {"id":"wb-s1","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"wb-s1-i","props":{"alt":"Planks of air-dried timber stacked and strapped in the yard.","image":["01m7ba38v6dcf5vymya4xd4q81"],"sizes":"(min-width: 64rem) 24vw, 50vw","aspect":"3/4"}}
 ::::::
 
@@ -41,7 +41,7 @@ discipline: Furniture
 ::::::
 :::::
 
-::::: box {"id":"wb-s2","props":{"tag":"figure"},"style":{"base":{"gap":"token:space.3","display":"flex","flexDirection":"column"}}}
+::::: box {"id":"wb-s2","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"wb-s2-i","props":{"alt":"Hands marking a line on an oak board with a pencil.","image":["01m7ba38tbnnp5x3srt37wanq2"],"sizes":"(min-width: 64rem) 24vw, 50vw","aspect":"3/4"}}
 ::::::
 
@@ -49,7 +49,7 @@ discipline: Furniture
 ::::::
 :::::
 
-::::: box {"id":"wb-s3","props":{"tag":"figure"},"style":{"base":{"gap":"token:space.3","display":"flex","flexDirection":"column"}}}
+::::: box {"id":"wb-s3","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"wb-s3-i","props":{"alt":"A gloved hand cutting into wood with a chisel.","image":["01m7ba38tcqyafa0hhbc6zcj13"],"sizes":"(min-width: 64rem) 24vw, 50vw","aspect":"3/4"}}
 ::::::
 
@@ -57,7 +57,7 @@ discipline: Furniture
 ::::::
 :::::
 
-::::: box {"id":"wb-s4","props":{"tag":"figure"},"style":{"base":{"gap":"token:space.3","display":"flex","flexDirection":"column"}}}
+::::: box {"id":"wb-s4","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"wb-s4-i","props":{"alt":"The rings of a sawn log, close up.","image":["01m7ba38v7md4z54khdyexry53"],"sizes":"(min-width: 64rem) 24vw, 50vw","aspect":"3/4"}}
 ::::::
 
@@ -68,15 +68,15 @@ discipline: Furniture
 :::
 
 ::: section {"id":"wb-spec","props":{"width":"content"},"class":"sun"}
-:::: columns {"id":"wb-spec-cols","props":{"gap":"token:space.16","align":"center","layout":"1-1"}}
+:::: columns {"id":"wb-spec-cols","props":{"gap":"16","align":"center","layout":"1-1"}}
 ::::: column {"id":"wb-spec-c1"}
 :::::: heading {"id":"wb-spec-title","props":{"text":"Made to order, one at a time.","level":"2"}}
 ::::::
 
-:::::: paragraph {"id":"wb-spec-p","props":{"tag":"p","text":"Each bench is cut from the same tree until the boards run out. Allow eight weeks; we deliver along the coast ourselves."},"style":{"base":{"color":"token:color.muted","marginTop":"token:space.6"}}}
+:::::: paragraph {"id":"wb-spec-p","props":{"tag":"p","text":"Each bench is cut from the same tree until the boards run out. Allow eight weeks; we deliver along the coast ourselves."},"class":"mt-6 text-muted"}
 ::::::
 
-:::::: buttons {"id":"wb-spec-actions","style":{"base":{"marginTop":"token:space.8"}}}
+:::::: buttons {"id":"wb-spec-actions","class":"mt-8"}
 ::::::: button {"id":"wb-spec-ask","props":{"url":"entry:01m7bf0hdtbd9d9d33m5gp91ew","label":"Ask about a bench","variant":"primary"}}
 :::::::
 ::::::

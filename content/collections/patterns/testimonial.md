@@ -9,16 +9,16 @@ description: 'One quotation set large, with a small portrait, a name and a role.
 ---
 
 ::: section {"id":"testimonial-s","props":{"width":"content"}}
-:::: box {"id":"testimonial-f","props":{"tag":"figure"},"style":{"base":{"maxWidth":"58rem","marginInline":"auto","display":"flex","flexDirection":"column","gap":"token:space.10","alignItems":"center","textAlign":"center"}}}
-::::: paragraph {"id":"testimonial-q","props":{"text":"“We would rather make one table that lasts a lifetime than ten that last a season.”","tag":"blockquote"},"style":{"base":{"fontFamily":"token:font.serif","fontSize":"token:text.5xl","lineHeight":"1.04","textWrap":"balance"}}}
+:::: box {"id":"testimonial-f","props":{"tag":"figure"},"class":"mx-auto flex max-w-[58rem] flex-col items-center gap-10 text-center"}
+::::: paragraph {"id":"testimonial-q","props":{"text":"“We would rather make one table that lasts a lifetime than ten that last a season.”","tag":"blockquote"},"class":"font-serif text-5xl leading-[1.04] text-balance"}
 :::::
 
-::::: box {"id":"testimonial-w","props":{"tag":"figcaption"},"style":{"base":{"display":"flex","alignItems":"center","gap":"token:space.4","textAlign":"left"}}}
-:::::: image {"id":"testimonial-i","props":{"image":["01m7ba38v3qs0vjhnt6s4p215b"],"alt":"","aspect":"1/1","sizes":"4rem"},"style":{"base":{"width":"3.5rem","borderRadius":"token:radius.full","overflow":"hidden","flexShrink":"0"}}}
+::::: box {"id":"testimonial-w","props":{"tag":"figcaption"},"class":"flex items-center gap-4 text-left"}
+:::::: image {"id":"testimonial-i","props":{"image":["01m7ba38v3qs0vjhnt6s4p215b"],"alt":"","aspect":"1/1","sizes":"4rem"},"class":"w-14 shrink-0 overflow-hidden rounded-full"}
 ::::::
 
 :::::: box {"id":"testimonial-n"}
-::::::: paragraph {"id":"testimonial-nn","props":{"text":"Ines Varga","tag":"p"},"style":{"base":{"fontWeight":"token:weight.medium"}}}
+::::::: paragraph {"id":"testimonial-nn","props":{"text":"Ines Varga","tag":"p"},"class":"font-medium"}
 :::::::
 
 ::::::: paragraph {"id":"testimonial-nr","props":{"text":"Founder and furniture maker","tag":"p"},"class":"meta"}

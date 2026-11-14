@@ -20,12 +20,12 @@ Or choose **Starter** when you install (`php cms install --start-from=starter`, 
 - **Components**: the header with a full-screen menu on phones, the footer, and cards for stories and projects.
 - **Patterns**: 29 sections to insert and edit freely, from heroes with a photograph or a film to galleries, carousels, a sound recording, numbers, a team, prices, an agenda, questions and calls to action, and four whole pages (a landing page, an about page, an event page and a photo story) to start a new page from.
 - **Globals and menus**: the Studio’s tagline, address, hours, email and phone, used in the footer and on Contact, and a main and a footer menu.
-- **The design**: tokens for light and dark, Inter and Instrument Serif, buttons, form fields, and section colours in Site CSS (`tide`, `clay`, `sun`, `mist`, `band` and `on-photo` for text over a photograph).
+- **The styling**: a Tailwind CSS theme with colours for light and dark, Inter and Instrument Serif, buttons, form fields, and section colours (`tide`, `clay`, `sun`, `mist`, `band` and `on-photo` for text over a photograph). Every block is styled with Tailwind classes.
 - **Media**: 33 photographs, a ten-second film and a sound recording, with their alt text.
 
 ## Needs
 
-Lettern 0.36 or later. No plugins. Applying it brings Site CSS, so it needs the **Edit Custom CSS and JavaScript** permission. The fonts, photographs, film and sound keep their own licences: see `NOTICE.md`.
+Lettern 0.37 or later. No plugins. The fonts, photographs, film and sound keep their own licences: see `NOTICE.md`.
 
 ---
 

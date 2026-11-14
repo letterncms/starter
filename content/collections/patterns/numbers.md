@@ -9,36 +9,36 @@ description: 'Four figures in a row on a pale blue section, each under a rule, w
 ---
 
 ::: section {"id":"numbers-s","props":{"width":"wide"},"class":"mist"}
-:::: box {"id":"numbers-g","props":{"tag":"dl"},"style":{"base":{"display":"grid","gridTemplateColumns":"repeat(4,minmax(0,1fr))","gap":"token:space.grid"},"tablet":{"gridTemplateColumns":"repeat(2,minmax(0,1fr))","rowGap":"token:space.10"}}}
-::::: box {"id":"numbers-n1","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
+:::: box {"id":"numbers-g","props":{"tag":"dl"},"class":"grid grid-cols-4 gap-columns max-lg:grid-cols-2 max-lg:gap-y-10"}
+::::: box {"id":"numbers-n1","class":"flex flex-col-reverse gap-3 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"numbers-n1k","props":{"text":"years at the harbour","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"numbers-n1v","props":{"text":"38","tag":"dd"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"0.9","letterSpacing":"token:tracking.display","fontWeight":"token:weight.medium"}}}
+:::::: paragraph {"id":"numbers-n1v","props":{"text":"38","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
 ::::::
 :::::
 
-::::: box {"id":"numbers-n2","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
+::::: box {"id":"numbers-n2","class":"flex flex-col-reverse gap-3 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"numbers-n2k","props":{"text":"makers in the loft","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"numbers-n2v","props":{"text":"5","tag":"dd"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"0.9","letterSpacing":"token:tracking.display","fontWeight":"token:weight.medium"}}}
+:::::: paragraph {"id":"numbers-n2v","props":{"text":"5","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
 ::::::
 :::::
 
-::::: box {"id":"numbers-n3","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
+::::: box {"id":"numbers-n3","class":"flex flex-col-reverse gap-3 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"numbers-n3k","props":{"text":"pieces a year","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"numbers-n3v","props":{"text":"240","tag":"dd"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"0.9","letterSpacing":"token:tracking.display","fontWeight":"token:weight.medium"}}}
+:::::: paragraph {"id":"numbers-n3v","props":{"text":"240","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
 ::::::
 :::::
 
-::::: box {"id":"numbers-n4","style":{"base":{"display":"flex","flexDirection":"column-reverse","gap":"token:space.3","paddingTop":"token:space.5","borderTop":"1px solid token:color.foreground"}}}
+::::: box {"id":"numbers-n4","class":"flex flex-col-reverse gap-3 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"numbers-n4k","props":{"text":"kilometres to the sawmill","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"numbers-n4v","props":{"text":"60","tag":"dd"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"0.9","letterSpacing":"token:tracking.display","fontWeight":"token:weight.medium"}}}
+:::::: paragraph {"id":"numbers-n4v","props":{"text":"60","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
 ::::::
 :::::
 ::::

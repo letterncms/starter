@@ -9,7 +9,7 @@ description: 'Portraits in a row, each with a name and what they do.'
 ---
 
 ::: section {"id":"team-s","props":{"width":"wide"}}
-:::: box {"id":"team-head","style":{"base":{"display":"flex","justifyContent":"space-between","alignItems":"end","gap":"token:space.6","paddingTop":"token:space.8","borderTop":"1px solid token:color.border"}}}
+:::: box {"id":"team-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"team-t","props":{"text":"The makers","level":"2"}}
 :::::
 
@@ -17,13 +17,13 @@ description: 'Portraits in a row, each with a name and what they do.'
 :::::
 ::::
 
-:::: box {"id":"team-g","style":{"base":{"display":"grid","gridTemplateColumns":"repeat(4,minmax(0,1fr))","gap":"token:space.grid","marginTop":"token:space.12"},"tablet":{"gridTemplateColumns":"repeat(2,minmax(0,1fr))","rowGap":"token:space.10"}}}
-::::: box {"id":"team-p1","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+:::: box {"id":"team-g","class":"mt-12 grid grid-cols-4 gap-columns max-lg:grid-cols-2 max-lg:gap-y-10"}
+::::: box {"id":"team-p1","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"team-p1i","props":{"image":["01m7ba38v3qs0vjhnt6s4p215b"],"alt":"Ines Varga","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
-:::::: box {"id":"team-p1c","props":{"tag":"figcaption"},"style":{"base":{"marginTop":"token:space.2"}}}
-::::::: paragraph {"id":"team-p1n","props":{"text":"Ines Varga","tag":"p"},"style":{"base":{"fontWeight":"token:weight.medium","color":"token:color.foreground","fontSize":"token:text.base"}}}
+:::::: box {"id":"team-p1c","props":{"tag":"figcaption"},"class":"mt-2"}
+::::::: paragraph {"id":"team-p1n","props":{"text":"Ines Varga","tag":"p"},"class":"text-base font-medium text-foreground"}
 :::::::
 
 ::::::: paragraph {"id":"team-p1r","props":{"text":"Founder, furniture","tag":"p"},"class":"meta"}
@@ -31,12 +31,12 @@ description: 'Portraits in a row, each with a name and what they do.'
 ::::::
 :::::
 
-::::: box {"id":"team-p2","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"team-p2","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"team-p2i","props":{"image":["01m7ba38tdv5z7j2rr4r59rett"],"alt":"Jonas Pieters","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
-:::::: box {"id":"team-p2c","props":{"tag":"figcaption"},"style":{"base":{"marginTop":"token:space.2"}}}
-::::::: paragraph {"id":"team-p2n","props":{"text":"Jonas Pieters","tag":"p"},"style":{"base":{"fontWeight":"token:weight.medium","color":"token:color.foreground","fontSize":"token:text.base"}}}
+:::::: box {"id":"team-p2c","props":{"tag":"figcaption"},"class":"mt-2"}
+::::::: paragraph {"id":"team-p2n","props":{"text":"Jonas Pieters","tag":"p"},"class":"text-base font-medium text-foreground"}
 :::::::
 
 ::::::: paragraph {"id":"team-p2r","props":{"text":"Ceramics","tag":"p"},"class":"meta"}
@@ -44,12 +44,12 @@ description: 'Portraits in a row, each with a name and what they do.'
 ::::::
 :::::
 
-::::: box {"id":"team-p3","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"team-p3","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"team-p3i","props":{"image":["01m7ba38v47s84tspeqbbpsvmc"],"alt":"Mara Lind","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
-:::::: box {"id":"team-p3c","props":{"tag":"figcaption"},"style":{"base":{"marginTop":"token:space.2"}}}
-::::::: paragraph {"id":"team-p3n","props":{"text":"Mara Lind","tag":"p"},"style":{"base":{"fontWeight":"token:weight.medium","color":"token:color.foreground","fontSize":"token:text.base"}}}
+:::::: box {"id":"team-p3c","props":{"tag":"figcaption"},"class":"mt-2"}
+::::::: paragraph {"id":"team-p3n","props":{"text":"Mara Lind","tag":"p"},"class":"text-base font-medium text-foreground"}
 :::::::
 
 ::::::: paragraph {"id":"team-p3r","props":{"text":"Ceramics and glazes","tag":"p"},"class":"meta"}
@@ -57,12 +57,12 @@ description: 'Portraits in a row, each with a name and what they do.'
 ::::::
 :::::
 
-::::: box {"id":"team-p4","props":{"tag":"figure"},"style":{"base":{"display":"flex","flexDirection":"column","gap":"token:space.3"}}}
+::::: box {"id":"team-p4","props":{"tag":"figure"},"class":"flex flex-col gap-3"}
 :::::: image {"id":"team-p4i","props":{"image":["01m7ba38v5amgzreen5bt9tjt3"],"alt":"Yuna Sato","aspect":"3/4","sizes":"(min-width: 64rem) 24vw, 50vw"}}
 ::::::
 
-:::::: box {"id":"team-p4c","props":{"tag":"figcaption"},"style":{"base":{"marginTop":"token:space.2"}}}
-::::::: paragraph {"id":"team-p4n","props":{"text":"Yuna Sato","tag":"p"},"style":{"base":{"fontWeight":"token:weight.medium","color":"token:color.foreground","fontSize":"token:text.base"}}}
+:::::: box {"id":"team-p4c","props":{"tag":"figcaption"},"class":"mt-2"}
+::::::: paragraph {"id":"team-p4n","props":{"text":"Yuna Sato","tag":"p"},"class":"text-base font-medium text-foreground"}
 :::::::
 
 ::::::: paragraph {"id":"team-p4r","props":{"text":"Rooms and drawings","tag":"p"},"class":"meta"}

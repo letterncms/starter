@@ -9,11 +9,11 @@ description: 'A large invitation and two buttons on a deep sea-green section.'
 ---
 
 ::: section {"id":"cta-band-s","props":{"width":"wide"},"class":"tide"}
-:::: box {"id":"cta-band-g","style":{"base":{"display":"grid","gridTemplateColumns":"minmax(0,8fr) minmax(0,4fr)","gap":"token:space.8","alignItems":"end"},"tablet":{"gridTemplateColumns":"minmax(0,1fr)"}}}
-::::: heading {"id":"cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"style":{"base":{"fontSize":"token:text.6xl","lineHeight":"token:leading.display","letterSpacing":"token:tracking.display","maxWidth":"12em"}}}
+:::: box {"id":"cta-band-g","class":"grid grid-cols-[minmax(0,8fr)_minmax(0,4fr)] items-end gap-8 max-lg:grid-cols-1"}
+::::: heading {"id":"cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-display tracking-display"}
 :::::
 
-::::: buttons {"id":"cta-band-b","props":{"justify":"end"},"style":{"tablet":{"justifyContent":"flex-start"}}}
+::::: buttons {"id":"cta-band-b","props":{"justify":"end"},"class":"max-lg:justify-start"}
 :::::: button {"id":"cta-band-b1","props":{"label":"Plan a visit","url":"entry:01m7bf0hdtbd9d9d33m5gp91ew","variant":"primary","size":"lg"}}
 ::::::
 

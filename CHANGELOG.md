@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## 0.3.0 (2026-11-14)
+
+### Changed
+
+- **Built with Tailwind CSS.** Every block is styled with Tailwind classes, and the site's colours, type, spacing and buttons are a Tailwind theme, one stylesheet you can read and change under Styling. The pages look as they did.
+- The space between columns and between blocks is `gap-columns` and `py-blocks` in classes (it was the tokens `grid` and `block`).
+
 ## 0.2.0 (2026-11-14)
 
 ### Changed

@@ -6,8 +6,8 @@ The site is MIT (`LICENSE.md`). The fonts, photographs, film and sound in it are
 
 | File | Is | Licence |
 |---|---|---|
-| `content/design/fonts/inter-100-900.woff2`, `inter-100-900-italic.woff2` | Inter | SIL Open Font License 1.1 |
-| `content/design/fonts/instrument-serif-400.woff2`, `instrument-serif-400-italic.woff2` | Instrument Serif | SIL Open Font License 1.1 |
+| `content/styling/fonts/inter-100-900.woff2`, `inter-100-900-italic.woff2` | Inter | SIL Open Font License 1.1 |
+| `content/styling/fonts/instrument-serif-400.woff2`, `instrument-serif-400-italic.woff2` | Instrument Serif | SIL Open Font License 1.1 |
 
 ```
 Inter: Copyright (c) 2016 The Inter Project Authors (https://github.com/rsms/inter)
