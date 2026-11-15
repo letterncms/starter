@@ -96,12 +96,6 @@
 
 /* Elements: what a heading, a link or the page looks like before a block says otherwise. */
 @layer base {
-  :root {
-    color-scheme: light dark;
-  }
-  html {
-    @apply antialiased;
-  }
   body {
     @apply bg-background font-sans text-base leading-normal text-foreground;
     font-optical-sizing: auto;
@@ -129,11 +123,8 @@
     @apply text-pretty;
   }
   a {
-    @apply underline decoration-foreground/30 decoration-1 underline-offset-[0.22em];
+    @apply underline decoration-foreground/30 decoration-1 underline-offset-[0.22em] hover:decoration-current;
     transition: text-decoration-color 150ms ease, color 150ms ease;
-  }
-  a:hover {
-    @apply decoration-current;
   }
   small {
     @apply text-sm;
@@ -174,7 +165,7 @@
   }
 }
 
-/* Classes: the site's own, used on blocks like any Tailwind class, with hover:, md: and the rest. */
+/* Styles: the site's own looks, used on blocks like any Tailwind class, with hover:, md: and the rest. */
 @utility display {
   @apply font-display text-display leading-display font-normal tracking-display text-balance;
 }
