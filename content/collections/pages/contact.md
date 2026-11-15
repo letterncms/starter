@@ -57,7 +57,7 @@ summary: 'Write, call or come by. The workshop is open Thursday to Saturday, and
 ::::
 :::
 
-::: section {"id":"ct-getting-here","props":{"width":"wide"},"label":"Getting here","class":"mist"}
+::: section {"id":"ct-getting-here","props":{"width":"wide"},"label":"Getting here","class":"scheme-mist"}
 :::: columns {"id":"ct-gh-cols","props":{"gap":"6","layout":"1-1-1"}}
 ::::: column {"id":"ct-gh-1"}
 :::::: heading {"id":"ct-gh-1-t","props":{"text":"By train","level":"3"},"class":"mb-3 text-2xl"}

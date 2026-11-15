@@ -49,7 +49,7 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-three-up-s","props":{"width":"wide"},"class":"clay"}
+::: section {"id":"landing-page-three-up-s","props":{"width":"wide"},"class":"scheme-clay"}
 :::: box {"id":"landing-page-three-up-g","class":"grid grid-cols-12 gap-x-columns gap-y-6"}
 ::::: paragraph {"id":"landing-page-three-up-label","props":{"text":"What we make","tag":"p"},"class":"eyebrow col-span-3 col-start-1 pt-[0.6rem] max-lg:col-span-full max-lg:pt-0"}
 :::::
@@ -105,7 +105,7 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-testimonials-s","props":{"width":"wide"},"class":"mist"}
+::: section {"id":"landing-page-testimonials-s","props":{"width":"wide"},"class":"scheme-mist"}
 :::: box {"id":"landing-page-testimonials-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"landing-page-testimonials-t","props":{"text":"What people say","level":"2"}}
 :::::
@@ -168,9 +168,9 @@ description: 'A page that introduces one thing: a headline beside a photograph, 
 ::::
 :::
 
-::: section {"id":"landing-page-cta-band-s","props":{"width":"wide"},"class":"tide"}
+::: section {"id":"landing-page-cta-band-s","props":{"width":"wide"},"class":"scheme-tide"}
 :::: box {"id":"landing-page-cta-band-g","class":"grid grid-cols-[minmax(0,8fr)_minmax(0,4fr)] items-end gap-8 max-lg:grid-cols-1"}
-::::: heading {"id":"landing-page-cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-display tracking-display"}
+::::: heading {"id":"landing-page-cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-headline tracking-headline"}
 :::::
 
 ::::: buttons {"id":"landing-page-cta-band-b","props":{"justify":"end"},"class":"max-lg:justify-start"}

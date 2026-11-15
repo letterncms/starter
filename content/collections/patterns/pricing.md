@@ -39,7 +39,7 @@ description: 'Three offers side by side, the middle one on a deep sea-green card
 ::::::
 :::::
 
-::::: box {"id":"pricing-p2","class":"tide flex flex-col gap-6 rounded-lg border border-border p-8"}
+::::: box {"id":"pricing-p2","class":"scheme-tide flex flex-col gap-6 rounded-lg border border-border p-8"}
 :::::: paragraph {"id":"pricing-p2n","props":{"text":"Course","tag":"p"},"class":"eyebrow"}
 ::::::
 

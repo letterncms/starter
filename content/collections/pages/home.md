@@ -8,9 +8,9 @@ summary: 'A studio for furniture, ceramics and rooms, made slowly by the sea.'
 template: default
 ---
 
-::: section {"id":"h-hero","props":{"width":"full","tag":"header"},"class":"tide pt-[clamp(3rem,8vw,8rem)] pb-0","label":"Hero"}
+::: section {"id":"h-hero","props":{"width":"full","tag":"header"},"class":"scheme-tide pt-[clamp(3rem,8vw,8rem)] pb-0","label":"Hero"}
 :::: box {"id":"h-hero-in","class":"mx-auto grid max-w-wide grid-cols-12 gap-x-columns px-gutter"}
-::::: heading {"id":"h-hero-title","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"display col-span-9 col-start-1 max-w-[10em] max-lg:col-span-full","motion":[{"id":"h-rise","trigger":{"type":"load"},"steps":[{"target":"words","mask":true,"from":{"y":"110%"},"duration":1,"ease":"power4.out","stagger":0.045}]}]}
+::::: heading {"id":"h-hero-title","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"headline col-span-9 col-start-1 max-w-[10em] max-lg:col-span-full","motion":[{"id":"h-rise","trigger":{"type":"load"},"steps":[{"target":"words","mask":true,"from":{"y":"110%"},"duration":1,"ease":"power4.out","stagger":0.045}]}]}
 :::::
 
 ::::: box {"id":"h-hero-side","class":"col-start-10 -col-end-1 flex flex-col items-start gap-6 self-end pb-3 max-lg:col-span-full max-lg:mt-10"}
@@ -80,7 +80,7 @@ template: default
 
 :::
 
-::: section {"id":"h-make","props":{"width":"wide"},"class":"clay","label":"What we make"}
+::: section {"id":"h-make","props":{"width":"wide"},"class":"scheme-clay","label":"What we make"}
 :::: box {"id":"h-make-head","class":"mb-16 grid grid-cols-12 gap-x-columns gap-y-4"}
 ::::: paragraph {"id":"h-make-label","props":{"text":"What we make","tag":"p"},"class":"eyebrow col-span-3 col-start-1 pt-3 max-lg:col-span-full max-lg:pt-0"}
 :::::
@@ -149,7 +149,7 @@ template: default
 
 :::
 
-::: section {"id":"h-quote","props":{"width":"content"},"class":"sun","label":"Quote"}
+::: section {"id":"h-quote","props":{"width":"content"},"class":"scheme-sun","label":"Quote"}
 :::: box {"id":"h-quote-in","props":{"tag":"figure"},"class":"mx-auto flex max-w-5xl flex-col items-center gap-12 text-center"}
 ::::: paragraph {"id":"h-quote-text","props":{"text":"“We would rather make one table that lasts a lifetime than ten that last a season.”","tag":"blockquote"},"class":"font-display text-6xl leading-[0.95] tracking-[-0.015em] text-balance"}
 :::::
@@ -179,13 +179,13 @@ template: default
 
 :::
 
-::: section {"id":"h-numbers","props":{"width":"wide"},"class":"mist","label":"In numbers"}
+::: section {"id":"h-numbers","props":{"width":"wide"},"class":"scheme-mist","label":"In numbers"}
 :::: box {"id":"h-numbers-grid","props":{"tag":"dl"},"class":"grid grid-cols-4 gap-columns max-lg:grid-cols-2 max-lg:gap-y-12"}
 ::::: box {"id":"h-num-1","class":"flex flex-col-reverse gap-4 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"h-num-1-k","props":{"text":"years at the harbour","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"h-num-1-v","props":{"text":"38","tag":"dd"},"class":"font-display text-display leading-[0.85] tracking-[-0.02em]"}
+:::::: paragraph {"id":"h-num-1-v","props":{"text":"38","tag":"dd"},"class":"font-display text-headline leading-[0.85] tracking-[-0.02em]"}
 ::::::
 
 :::::
@@ -194,7 +194,7 @@ template: default
 :::::: paragraph {"id":"h-num-2-k","props":{"text":"makers in the loft","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"h-num-2-v","props":{"text":"5","tag":"dd"},"class":"font-display text-display leading-[0.85] tracking-[-0.02em]"}
+:::::: paragraph {"id":"h-num-2-v","props":{"text":"5","tag":"dd"},"class":"font-display text-headline leading-[0.85] tracking-[-0.02em]"}
 ::::::
 
 :::::
@@ -203,7 +203,7 @@ template: default
 :::::: paragraph {"id":"h-num-3-k","props":{"text":"pieces leave the workshop each year","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"h-num-3-v","props":{"text":"240","tag":"dd"},"class":"font-display text-display leading-[0.85] tracking-[-0.02em]"}
+:::::: paragraph {"id":"h-num-3-v","props":{"text":"240","tag":"dd"},"class":"font-display text-headline leading-[0.85] tracking-[-0.02em]"}
 ::::::
 
 :::::
@@ -212,7 +212,7 @@ template: default
 :::::: paragraph {"id":"h-num-4-k","props":{"text":"kilometres to the nearest sawmill","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"h-num-4-v","props":{"text":"60","tag":"dd"},"class":"font-display text-display leading-[0.85] tracking-[-0.02em]"}
+:::::: paragraph {"id":"h-num-4-v","props":{"text":"60","tag":"dd"},"class":"font-display text-headline leading-[0.85] tracking-[-0.02em]"}
 ::::::
 
 :::::

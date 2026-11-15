@@ -8,7 +8,7 @@ category: Features
 description: 'Three photographs on a terracotta section, each with a number, a title and a few lines, set at different heights.'
 ---
 
-::: section {"id":"three-up-s","props":{"width":"wide"},"class":"clay"}
+::: section {"id":"three-up-s","props":{"width":"wide"},"class":"scheme-clay"}
 :::: box {"id":"three-up-g","class":"grid grid-cols-12 gap-x-columns gap-y-6"}
 ::::: paragraph {"id":"three-up-label","props":{"text":"What we make","tag":"p"},"class":"eyebrow col-span-3 col-start-1 pt-[0.6rem] max-lg:col-span-full max-lg:pt-0"}
 :::::

@@ -14,7 +14,7 @@ collections:
 
 ::: box {"id":"po-main","props":{"tag":"main"},"label":"Main","anchor":"main"}
 :::: box {"id":"po-article","props":{"tag":"article"},"label":"Story"}
-::::: box {"id":"po-band","label":"Title band","bind":{"state:clay":"entry.topic|is:Making","state:tide":"entry.topic|is:Places","state:sun":"entry.topic|is:People","state:mist":"entry.topic|is:Notes"}}
+::::: box {"id":"po-band","class":"data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","label":"Title band","bind":{"state:clay":"entry.topic|is:Making","state:tide":"entry.topic|is:Places","state:sun":"entry.topic|is:People","state:mist":"entry.topic|is:Notes"}}
 :::::: box {"id":"po-head","props":{"tag":"header"},"label":"Title","class":"mx-auto flex max-w-4xl flex-col items-center gap-6 px-gutter pt-[clamp(3rem,7vw,7rem)] pb-[calc(clamp(3rem,8vw,7rem)+3rem)] text-center"}
 ::::::: box {"id":"po-meta","class":"meta flex items-center gap-3"}
 :::::::: paragraph {"id":"po-topic","props":{"tag":"span"},"class":"font-semibold text-foreground","bind":{"text":"entry.topic","visible":"entry.topic"}}
@@ -27,7 +27,7 @@ collections:
 ::::::::
 :::::::
 
-::::::: heading {"id":"po-title","props":{"level":"1"},"class":"text-6xl leading-display","bind":{"text":"entry.title"}}
+::::::: heading {"id":"po-title","props":{"level":"1"},"class":"text-6xl leading-headline","bind":{"text":"entry.title"}}
 :::::::
 
 ::::::: paragraph {"id":"po-summary","props":{"tag":"p"},"class":"lede max-w-[34em] text-xl text-muted","bind":{"text":"entry.summary","visible":"entry.summary"}}

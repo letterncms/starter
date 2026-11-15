@@ -46,7 +46,7 @@ discipline: Rooms
 :::
 
 ::: section {"id":"dh-quote","props":{"width":"prose"}}
-:::: quote {"id":"dh-q","props":{"cite":"The owners, a year after moving back in","text":"It still feels like the house we bought. It just stopped fighting us."},"class":"text-4xl leading-[1.08]"}
+:::: quote {"id":"dh-q","props":{"cite":"The owners, a year after moving back in","text":"It still feels like the house we bought. It just stopped fighting us."}}
 ::::
 :::
 

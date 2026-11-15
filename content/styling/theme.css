@@ -14,7 +14,7 @@
   --color-primary-foreground: light-dark(#ffffff, #0f1414);
   --color-accent: light-dark(#e4572e, #ff7a55);
 
-  /* The colours of a section: see "Colour sections" below. */
+  /* The colours of a section: see the schemes below. */
   --color-band: light-dark(#111616, #0b0f0f);
   --color-band-foreground: light-dark(#f1f4f3, #ecf2f0);
   --color-tide: light-dark(#0f3c3d, #0c3233);
@@ -44,14 +44,14 @@
   --text-4xl: clamp(2.5rem, 1.8152rem + 3.0435vw, 4.25rem);
   --text-5xl: clamp(3rem, 1.7283rem + 5.6522vw, 6.25rem);
   --text-6xl: clamp(3.5rem, 1.4457rem + 9.1304vw, 8.75rem);
-  --text-display: clamp(4rem, 0.6739rem + 14.7826vw, 12.5rem);
+  --text-headline: clamp(4rem, 0.6739rem + 14.7826vw, 12.5rem);
 
-  --leading-display: 0.88;
+  --leading-headline: 0.88;
   --leading-tight: 0.98;
   --leading-snug: 1.15;
   --leading-normal: 1.6;
 
-  --tracking-display: -0.02em;
+  --tracking-headline: -0.02em;
   --tracking-tight: -0.012em;
   --tracking-snug: -0.005em;
   --tracking-normal: 0;
@@ -102,7 +102,7 @@
     font-synthesis: none;
   }
   h1 {
-    @apply font-display text-6xl leading-display font-normal tracking-tight text-balance;
+    @apply font-display text-6xl leading-headline font-normal tracking-tight text-balance;
   }
   h2 {
     @apply font-display text-5xl leading-tight font-normal tracking-tight text-balance;
@@ -123,8 +123,7 @@
     @apply text-pretty;
   }
   a {
-    @apply underline decoration-foreground/30 decoration-1 underline-offset-[0.22em] hover:decoration-current;
-    transition: text-decoration-color 150ms ease, color 150ms ease;
+    @apply underline decoration-foreground/30 decoration-1 underline-offset-[0.22em] transition-colors hover:decoration-current;
   }
   small {
     @apply text-sm;
@@ -136,7 +135,7 @@
     @apply text-sm leading-[1.45] text-muted;
   }
   blockquote {
-    @apply font-display text-4xl leading-[1.02] tracking-[-0.01em];
+    @apply font-display text-4xl leading-[1.02] tracking-[-0.01em] text-balance;
   }
   hr {
     @apply border-border;
@@ -165,9 +164,50 @@
   }
 }
 
+/* Schemes: a section, a box or a card in colours of its own (deep sea green, terracotta, yellow, pale blue,
+   near black, and over a photograph), its text, lines and buttons following. A collection sets one from its entries with a state:
+   data-tide:scheme-tide. */
+@utility scheme-tide {
+  --scheme: var(--color-tide);
+  --scheme-text: var(--color-tide-foreground);
+  @apply scheme;
+}
+
+@utility scheme-clay {
+  --scheme: var(--color-clay);
+  --scheme-text: var(--color-clay-foreground);
+  @apply scheme;
+}
+
+@utility scheme-sun {
+  --scheme: var(--color-sun);
+  --scheme-text: var(--color-sun-foreground);
+  @apply scheme;
+}
+
+@utility scheme-mist {
+  --scheme: var(--color-mist);
+  --scheme-text: var(--color-mist-foreground);
+  @apply scheme;
+}
+
+@utility scheme-band {
+  --scheme: var(--color-band);
+  --scheme-text: var(--color-band-foreground);
+  @apply scheme;
+}
+
+/* Over a photograph: light text, lines and buttons, with dark words on a button. */
+@utility scheme-photo {
+  --scheme: transparent;
+  --scheme-text: #ffffff;
+  @apply scheme;
+  --color-primary-foreground: #111616;
+}
+
 /* Styles: the site's own looks, used on blocks like any Tailwind class, with hover:, md: and the rest. */
-@utility display {
-  @apply font-display text-display leading-display font-normal tracking-display text-balance;
+@utility headline {
+  @apply font-display text-headline leading-headline font-normal tracking-headline text-balance;
 }
 
 @utility lede {
@@ -203,58 +243,8 @@
   @apply h-auto border-0 bg-transparent p-0 font-medium text-foreground underline decoration-foreground/35 underline-offset-[0.25em] hover:decoration-foreground;
 }
 
+/* Long-form text: the space between its blocks, and its elements where they differ from the page's. */
 @layer components {
-  /* Colour sections. Give a Section or a Box one of these classes: tide (deep sea green), clay
-     (terracotta), sun (yellow), mist (pale blue) or band (near black). Text, muted text, lines and
-     buttons inside take the section's colours. A collection can set one from its entries too: a
-     state named after the colour (data-tide, data-clay…) does the same. */
-  .tide,
-  [data-tide] {
-    --scheme: var(--color-tide);
-    --scheme-text: var(--color-tide-foreground);
-  }
-  .clay,
-  [data-clay] {
-    --scheme: var(--color-clay);
-    --scheme-text: var(--color-clay-foreground);
-  }
-  .sun,
-  [data-sun] {
-    --scheme: var(--color-sun);
-    --scheme-text: var(--color-sun-foreground);
-  }
-  .mist,
-  [data-mist] {
-    --scheme: var(--color-mist);
-    --scheme-text: var(--color-mist-foreground);
-  }
-  .band,
-  [data-band] {
-    --scheme: var(--color-band);
-    --scheme-text: var(--color-band-foreground);
-  }
-  :is(.tide, .clay, .sun, .mist, .band, [data-tide], [data-clay], [data-sun], [data-mist], [data-band]) {
-    --color-foreground: var(--scheme-text);
-    --color-muted: color-mix(in srgb, var(--scheme-text) 72%, var(--scheme));
-    --color-border: color-mix(in srgb, var(--scheme-text) 22%, var(--scheme));
-    --color-surface: color-mix(in srgb, var(--scheme-text) 8%, var(--scheme));
-    --color-raised: color-mix(in srgb, var(--scheme-text) 10%, var(--scheme));
-    --color-primary: var(--scheme-text);
-    --color-primary-foreground: var(--scheme);
-    @apply bg-(--scheme) text-(--scheme-text);
-  }
-
-  /* Over a photograph: the class on-photo turns text, lines and buttons light. */
-  .on-photo {
-    --color-foreground: #fff;
-    --color-muted: rgb(255 255 255 / 0.8);
-    --color-border: rgb(255 255 255 / 0.3);
-    --color-primary: #fff;
-    --color-primary-foreground: #111616;
-    @apply text-white;
-  }
-
-  /* Long-form text: the space between its blocks, and its elements where they differ from the page's. */
   .cms-prose {
     --prose-blocks: 1.25em;
     --prose-headings: 2.2em;
@@ -274,35 +264,12 @@
     @apply text-lg leading-[1.6];
   }
   .cms-prose blockquote:where(:not(.cms-box, .cms-repeat)) {
-    @apply my-[1.4em] text-4xl;
+    @apply my-[1.4em] border-0 p-0;
   }
   .cms-prose figure:where(:not(.cms-box, .cms-repeat)) {
     @apply my-[2.25em];
   }
   .cms-prose a:where(:not(.cms-box, .cms-repeat)) {
     @apply decoration-accent;
-  }
-
-  /* Photographs and films fill the box they are given. */
-  .cms-image img,
-  .cms-video video {
-    @apply block size-full object-cover;
-  }
-  .cms-gallery__item :is(img, picture, a) {
-    @apply rounded-none;
-  }
-
-  /* Quotations are set whole in the serif, large, without a rule. */
-  .cms-quote blockquote,
-  .cms-prose blockquote:where(:not(.cms-box, .cms-repeat)) {
-    @apply border-0 p-0 font-display text-4xl leading-[1.02] tracking-[-0.01em] text-balance;
-  }
-  .cms-quote figcaption {
-    @apply mt-5;
-  }
-
-  /* Tables read at the size of the text around them. */
-  .cms-table :is(th, td) {
-    @apply py-[0.9em] text-[length:inherit];
   }
 }

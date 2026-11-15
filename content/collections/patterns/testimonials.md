@@ -8,7 +8,7 @@ category: People
 description: 'Three short quotations on a pale blue section, each with who said it.'
 ---
 
-::: section {"id":"testimonials-s","props":{"width":"wide"},"class":"mist"}
+::: section {"id":"testimonials-s","props":{"width":"wide"},"class":"scheme-mist"}
 :::: box {"id":"testimonials-head","class":"flex items-end justify-between gap-6 border-t border-border pt-8"}
 ::::: heading {"id":"testimonials-t","props":{"text":"What people say","level":"2"}}
 :::::

@@ -67,7 +67,7 @@ discipline: Furniture
 ::::
 :::
 
-::: section {"id":"wb-spec","props":{"width":"content"},"class":"sun"}
+::: section {"id":"wb-spec","props":{"width":"content"},"class":"scheme-sun"}
 :::: columns {"id":"wb-spec-cols","props":{"gap":"16","align":"center","layout":"1-1"}}
 ::::: column {"id":"wb-spec-c1"}
 :::::: heading {"id":"wb-spec-title","props":{"text":"Made to order, one at a time.","level":"2"}}

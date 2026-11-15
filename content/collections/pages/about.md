@@ -108,7 +108,7 @@ summary: 'Five makers in an old net loft by the harbour, making furniture, ceram
 ::::
 :::
 
-::: section {"id":"ab-values","props":{"width":"wide"},"label":"How we work","class":"clay"}
+::: section {"id":"ab-values","props":{"width":"wide"},"label":"How we work","class":"scheme-clay"}
 :::: heading {"id":"ab-values-title","props":{"text":"How we work","level":"2"},"class":"mb-12"}
 ::::
 

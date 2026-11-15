@@ -8,9 +8,9 @@ category: 'Calls to Action'
 description: 'A large invitation and two buttons on a deep sea-green section.'
 ---
 
-::: section {"id":"cta-band-s","props":{"width":"wide"},"class":"tide"}
+::: section {"id":"cta-band-s","props":{"width":"wide"},"class":"scheme-tide"}
 :::: box {"id":"cta-band-g","class":"grid grid-cols-[minmax(0,8fr)_minmax(0,4fr)] items-end gap-8 max-lg:grid-cols-1"}
-::::: heading {"id":"cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-display tracking-display"}
+::::: heading {"id":"cta-band-h","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-headline tracking-headline"}
 :::::
 
 ::::: buttons {"id":"cta-band-b","props":{"justify":"end"},"class":"max-lg:justify-start"}

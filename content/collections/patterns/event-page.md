@@ -9,8 +9,8 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ---
 
 ::: section {"id":"event-page-hero-photo-s","props":{"width":"wide","background_image":["01m7ba38tsjqd1ph2hd493jaqq"],"overlay":"dark"},"class":"flex min-h-[min(92vh,56rem)] items-end pb-blocks"}
-:::: box {"id":"event-page-hero-photo-in","class":"on-photo"}
-::::: heading {"id":"event-page-hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"class":"max-w-[12em] text-6xl leading-display tracking-display"}
+:::: box {"id":"event-page-hero-photo-in","class":"scheme-photo"}
+::::: heading {"id":"event-page-hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"class":"max-w-[12em] text-6xl leading-headline tracking-headline"}
 :::::
 
 ::::: buttons {"id":"event-page-hero-photo-b","class":"mt-8"}
@@ -144,7 +144,7 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 ::::::
 :::::
 
-::::: box {"id":"event-page-pricing-p2","class":"tide flex flex-col gap-6 rounded-lg border border-border p-8"}
+::::: box {"id":"event-page-pricing-p2","class":"scheme-tide flex flex-col gap-6 rounded-lg border border-border p-8"}
 :::::: paragraph {"id":"event-page-pricing-p2n","props":{"text":"Course","tag":"p"},"class":"eyebrow"}
 ::::::
 
@@ -209,11 +209,11 @@ description: 'A page for a day, a class or a season: a photograph with a headlin
 :::
 
 ::: section {"id":"event-page-cta-photo-s","props":{"width":"content","background_image":["01m7ba38vay182k0eg3t09gw0b"],"overlay":"dark"},"class":"py-[clamp(6rem,14vw,14rem)] text-center"}
-:::: box {"id":"event-page-cta-photo-in","class":"on-photo flex flex-col items-center gap-6"}
+:::: box {"id":"event-page-cta-photo-in","class":"scheme-photo flex flex-col items-center gap-6"}
 ::::: paragraph {"id":"event-page-cta-photo-k","props":{"text":"Last Saturday of October","tag":"p"},"class":"text-sm opacity-80"}
 :::::
 
-::::: heading {"id":"event-page-cta-photo-h","props":{"text":"Supper at the long table","level":"2"},"class":"text-6xl leading-display tracking-display"}
+::::: heading {"id":"event-page-cta-photo-h","props":{"text":"Supper at the long table","level":"2"},"class":"text-6xl leading-headline tracking-headline"}
 :::::
 
 ::::: button {"id":"event-page-cta-photo-b","props":{"label":"Keep me a seat","url":"entry:01m7bf0hdtbd9d9d33m5gp91ew","variant":"primary","size":"lg"}}

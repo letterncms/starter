@@ -13,12 +13,12 @@ collections:
 :::
 
 ::: box {"id":"pj-main","props":{"tag":"main"},"label":"Main","anchor":"main"}
-:::: box {"id":"pj-band","label":"Title band","bind":{"state:tide":"entry.colour|is:tide","state:clay":"entry.colour|is:clay","state:sun":"entry.colour|is:sun","state:mist":"entry.colour|is:mist"},"class":"pb-[clamp(3rem,8vw,7rem)]"}
+:::: box {"id":"pj-band","label":"Title band","bind":{"state:tide":"entry.colour|is:tide","state:clay":"entry.colour|is:clay","state:sun":"entry.colour|is:sun","state:mist":"entry.colour|is:mist"},"class":"pb-[clamp(3rem,8vw,7rem)] data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist"}
 ::::: box {"id":"pj-head","props":{"tag":"header"},"label":"Title","class":"mx-auto grid max-w-wide grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-[clamp(3rem,9vw,9rem)] pb-12"}
 :::::: link {"id":"pj-back","props":{"label":"Work","url":"entry:01m7bf0hdtbd9d9d33m5gp91es","icon":"arrow-left"},"class":"meta col-span-full justify-self-start hover:text-foreground"}
 ::::::
 
-:::::: heading {"id":"pj-title","props":{"level":"1"},"class":"col-span-9 col-start-1 text-6xl leading-display tracking-display max-lg:col-span-full","bind":{"text":"entry.title"}}
+:::::: heading {"id":"pj-title","props":{"level":"1"},"class":"col-span-9 col-start-1 text-6xl leading-headline tracking-headline max-lg:col-span-full","bind":{"text":"entry.title"}}
 ::::::
 
 :::::: paragraph {"id":"pj-summary","props":{"tag":"p"},"class":"lede col-span-7 col-start-1 max-lg:col-span-full","bind":{"text":"entry.summary","visible":"entry.summary"}}
@@ -72,7 +72,7 @@ collections:
 ::::::: paragraph {"id":"pj-next-label","props":{"text":"Next project","tag":"p"},"class":"meta"}
 :::::::
 
-::::::: paragraph {"id":"pj-next-title","props":{"tag":"p"},"class":"font-display text-6xl leading-display font-normal tracking-tight transition-transform duration-500 ease-out group-hover:translate-x-1","bind":{"text":"item.title"}}
+::::::: paragraph {"id":"pj-next-title","props":{"tag":"p"},"class":"font-display text-6xl leading-headline font-normal tracking-tight transition-transform duration-500 ease-out group-hover:translate-x-1","bind":{"text":"item.title"}}
 :::::::
 ::::::
 

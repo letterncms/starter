@@ -8,9 +8,9 @@ category: Pages
 description: 'A page about the people behind the site: a big headline, a story in two columns, the team, how you work and questions.'
 ---
 
-::: section {"id":"about-page-hero-type-s","props":{"width":"wide"},"class":"tide pt-[clamp(2.5rem,7vw,7rem)]"}
+::: section {"id":"about-page-hero-type-s","props":{"width":"wide"},"class":"scheme-tide pt-[clamp(2.5rem,7vw,7rem)]"}
 
-:::: heading {"id":"about-page-hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"display max-w-[11.5em]"}
+:::: heading {"id":"about-page-hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"headline max-w-[11.5em]"}
 ::::
 :::
 
@@ -95,7 +95,7 @@ description: 'A page about the people behind the site: a big headline, a story i
 ::::
 :::
 
-::: section {"id":"about-page-principles-s","props":{"width":"wide"},"class":"clay"}
+::: section {"id":"about-page-principles-s","props":{"width":"wide"},"class":"scheme-clay"}
 :::: heading {"id":"about-page-principles-h","props":{"text":"How we work","level":"2"},"class":"mb-12"}
 ::::
 

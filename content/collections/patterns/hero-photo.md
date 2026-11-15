@@ -9,8 +9,8 @@ description: 'A photograph filling the screen, with a headline and a button over
 ---
 
 ::: section {"id":"hero-photo-s","props":{"width":"wide","background_image":["01m7ba38tsjqd1ph2hd493jaqq"],"overlay":"dark"},"class":"flex min-h-[min(92vh,56rem)] items-end pb-blocks"}
-:::: box {"id":"hero-photo-in","class":"on-photo"}
-::::: heading {"id":"hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"class":"max-w-[12em] text-6xl leading-display tracking-display"}
+:::: box {"id":"hero-photo-in","class":"scheme-photo"}
+::::: heading {"id":"hero-photo-h","props":{"text":"Eleven kilometres of coast, and a kettle at the end.","level":"1"},"class":"max-w-[12em] text-6xl leading-headline tracking-headline"}
 :::::
 
 ::::: buttons {"id":"hero-photo-b","class":"mt-8"}

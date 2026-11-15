@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## 0.5.0 (2026-11-15)
+
+### Changed
+
+- **Section colours are schemes**: *Tide*, *Clay*, *Sun*, *Mist* and *Band*, and *Photo* for words over a photograph. Each is a background and a text colour you change under **Styling → Colors**, and a block takes one under **Add Style**.
+- The large headline style is called *Headline* (it was *display*), with its size, line height and letter spacing.
+- Long-form text is styled under **Styling → Styles → Articles**, and the site has no custom CSS left.
+
 ## 0.4.0 (2026-11-15)
 
 ### Changed

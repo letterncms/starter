@@ -8,8 +8,8 @@ category: Heroes
 description: 'A headline set very large on a deep sea-green section. For a home page that leads with words.'
 ---
 
-::: section {"id":"hero-type-s","props":{"width":"wide"},"class":"tide pt-[clamp(2.5rem,7vw,7rem)]"}
+::: section {"id":"hero-type-s","props":{"width":"wide"},"class":"scheme-tide pt-[clamp(2.5rem,7vw,7rem)]"}
 
-:::: heading {"id":"hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"display max-w-[11.5em]"}
+:::: heading {"id":"hero-type-h","props":{"text":"Things made slowly, to be used for a long time.","level":"1"},"class":"headline max-w-[11.5em]"}
 ::::
 :::

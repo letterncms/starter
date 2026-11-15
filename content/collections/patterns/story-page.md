@@ -21,7 +21,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 ::::
 :::
 
-::: section {"id":"story-page-statement-s","props":{"width":"content"},"class":"sun"}
+::: section {"id":"story-page-statement-s","props":{"width":"content"},"class":"scheme-sun"}
 :::: paragraph {"id":"story-page-statement-q","props":{"text":"A cup is finished when someone has used it every morning for a year.","tag":"p"},"class":"mx-auto max-w-[18em] text-center font-serif text-5xl leading-[1.04] text-balance"}
 ::::
 :::
@@ -60,13 +60,13 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 ::::
 :::
 
-::: section {"id":"story-page-numbers-s","props":{"width":"wide"},"class":"mist"}
+::: section {"id":"story-page-numbers-s","props":{"width":"wide"},"class":"scheme-mist"}
 :::: box {"id":"story-page-numbers-g","props":{"tag":"dl"},"class":"grid grid-cols-4 gap-columns max-lg:grid-cols-2 max-lg:gap-y-10"}
 ::::: box {"id":"story-page-numbers-n1","class":"flex flex-col-reverse gap-3 border-t border-foreground pt-5"}
 :::::: paragraph {"id":"story-page-numbers-n1k","props":{"text":"years at the harbour","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"story-page-numbers-n1v","props":{"text":"38","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
+:::::: paragraph {"id":"story-page-numbers-n1v","props":{"text":"38","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-headline"}
 ::::::
 :::::
 
@@ -74,7 +74,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 :::::: paragraph {"id":"story-page-numbers-n2k","props":{"text":"makers in the loft","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"story-page-numbers-n2v","props":{"text":"5","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
+:::::: paragraph {"id":"story-page-numbers-n2v","props":{"text":"5","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-headline"}
 ::::::
 :::::
 
@@ -82,7 +82,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 :::::: paragraph {"id":"story-page-numbers-n3k","props":{"text":"pieces a year","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"story-page-numbers-n3v","props":{"text":"240","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
+:::::: paragraph {"id":"story-page-numbers-n3v","props":{"text":"240","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-headline"}
 ::::::
 :::::
 
@@ -90,7 +90,7 @@ description: 'A page told in pictures: a film, a gallery, a carousel, numbers an
 :::::: paragraph {"id":"story-page-numbers-n4k","props":{"text":"kilometres to the sawmill","tag":"dt"},"class":"meta"}
 ::::::
 
-:::::: paragraph {"id":"story-page-numbers-n4v","props":{"text":"60","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-display"}
+:::::: paragraph {"id":"story-page-numbers-n4v","props":{"text":"60","tag":"dd"},"class":"text-6xl leading-[0.9] font-medium tracking-headline"}
 ::::::
 :::::
 ::::

@@ -2,7 +2,7 @@
     "handle": "starter",
     "name": "Starter",
     "description": "A complete site to make your own: a home page, work, a journal, about and contact, a library of sections, and photography, video and sound throughout.",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "license": "MIT",
     "languages": [
         "en"

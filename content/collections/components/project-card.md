@@ -53,7 +53,7 @@ props:
     default: 4/3
 ---
 
-::: box {"id":"pc","props":{"tag":"article"},"class":"relative flex flex-col gap-5 rounded-lg p-4 pb-6 transition-transform duration-500 ease-out group-hover:-translate-y-1","bind":{"link":"props.link","state:tide":"props.colour|is:tide","state:clay":"props.colour|is:clay","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Project card"}
+::: box {"id":"pc","props":{"tag":"article"},"class":"relative flex flex-col gap-5 rounded-lg p-4 pb-6 transition-transform duration-500 ease-out group-hover:-translate-y-1 data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","bind":{"link":"props.link","state:tide":"props.colour|is:tide","state:clay":"props.colour|is:clay","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Project card"}
 :::: box {"id":"pc-media","class":"overflow-clip rounded-md"}
 ::::: image {"id":"pc-image","props":{"sizes":"(min-width: 64rem) 46vw, 100vw"},"class":"transition-transform duration-900 ease-out group-hover:scale-103","bind":{"image":"props.image","aspect":"props.aspect","visible":"props.image"}}
 :::::

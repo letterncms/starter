@@ -8,7 +8,7 @@ category: Features
 description: 'Ruled rows on a terracotta section, each with a number, a short title and a sentence or two.'
 ---
 
-::: section {"id":"principles-s","props":{"width":"wide"},"class":"clay"}
+::: section {"id":"principles-s","props":{"width":"wide"},"class":"scheme-clay"}
 :::: heading {"id":"principles-h","props":{"text":"How we work","level":"2"},"class":"mb-12"}
 ::::
 

@@ -8,7 +8,7 @@ category: Media
 description: 'A recording with its cover, a title, a few lines and a player, for a podcast or field recording.'
 ---
 
-::: section {"id":"audio-episode-s","props":{"width":"wide"},"class":"sun"}
+::: section {"id":"audio-episode-s","props":{"width":"wide"},"class":"scheme-sun"}
 :::: box {"id":"audio-episode-g","class":"grid grid-cols-12 gap-x-columns gap-y-8"}
 ::::: image {"id":"audio-episode-i","props":{"image":["01m7ba38ty59yqk5x03fmtdmv8"],"alt":"People walking on wet sand at low tide.","aspect":"1/1","sizes":"(min-width: 48rem) 30vw, 100vw"},"class":"col-span-4 col-start-1 max-lg:col-span-5 max-lg:col-start-1 max-md:col-span-full"}
 :::::

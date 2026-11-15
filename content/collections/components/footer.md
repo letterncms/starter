@@ -8,10 +8,10 @@ category: Site
 description: 'An invitation, the studio’s address, how to get in touch, the footer menu and the small print, on a dark band.'
 ---
 
-::: box {"id":"ft","props":{"tag":"footer"},"label":"Footer","class":"band pt-section pb-8"}
+::: box {"id":"ft","props":{"tag":"footer"},"label":"Footer","class":"scheme-band pt-section pb-8"}
 :::: box {"id":"ft-in","class":"mx-auto flex max-w-wide flex-col gap-blocks px-gutter"}
 ::::: box {"id":"ft-top","label":"Invitation","class":"grid grid-cols-[minmax(0,8fr)_minmax(0,4fr)] items-end gap-8 max-lg:grid-cols-1"}
-:::::: heading {"id":"ft-title","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-display tracking-[-0.015em] text-sun"}
+:::::: heading {"id":"ft-title","props":{"text":"Come and see the workshop.","level":"2"},"class":"max-w-[12em] text-6xl leading-headline tracking-[-0.015em] text-sun"}
 ::::::
 
 :::::: buttons {"id":"ft-actions","props":{"justify":"end"},"class":"max-lg:justify-start"}

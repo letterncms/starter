@@ -41,7 +41,7 @@ discipline: Rooms
 ::::
 :::
 
-::: section {"id":"hc-band","props":{"width":"content"},"class":"tide"}
+::: section {"id":"hc-band","props":{"width":"content"},"class":"scheme-tide"}
 :::: columns {"id":"hc-band-cols","props":{"gap":"16","align":"center","layout":"1-1"}}
 ::::: column {"id":"hc-band-c1"}
 :::::: image {"id":"hc-bowl","props":{"alt":"Two people passing a bowl of food across a table.","image":["01m7ba38v9y5k4vr9x14mmp936"],"sizes":"(min-width: 48rem) 40vw, 100vw","aspect":"1/1"}}
@@ -49,7 +49,7 @@ discipline: Rooms
 :::::
 
 ::::: column {"id":"hc-band-c2"}
-:::::: quote {"id":"hc-q","props":{"cite":"Mira Okafor, Harbour Café","text":"People pick up the cups and turn them over to see who made them. That never happened before."},"class":"text-3xl leading-[1.12]"}
+:::::: quote {"id":"hc-q","props":{"cite":"Mira Okafor, Harbour Café","text":"People pick up the cups and turn them over to see who made them. That never happened before."}}
 ::::::
 :::::
 ::::
