@@ -4,11 +4,12 @@ title: 'A week in the workshop'
 status: published
 published_at: '2026-09-18T09:00:00+00:00'
 tags:
-  - furniture
-  - process
+  - 01m7k2edg0w0vs7n0249y6f676
+  - 01m7k2edg01pvxt00fn4z4b9zw
 cover:
   - 01m7ba38t7dscv41cdpdsmz1dy
-topic: Making
+topic:
+  - 01m7k2edg0p6nd4f5kvpwyvyda
 summary: 'From a stack of oak on Monday to a table on its legs by Friday: what a week in the loft looks like, hour by hour.'
 template: post
 ---

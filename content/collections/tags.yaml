@@ -1,0 +1,9 @@
+type: tags
+title: Tags
+singular: Tag
+icon: tag
+driver: database
+route: '/journal/tags/{slug}'
+template: term
+nav_order: 40
+fields: []

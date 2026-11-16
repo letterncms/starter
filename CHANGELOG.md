@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+## 0.6.0 (2026-11-16)
+
+### Added
+
+- **Topics and tags are taxonomies.** A story's topic is one of four categories, *Making*, *Places*, *People* and *Notes*, each with a summary and the colour its stories' tiles and title bands take: change a topic's colour and its stories follow. Tags are made as you type them into a story. Every topic and tag has a page listing its stories (`/journal/topics/making`, `/journal/tags/coast`), and a story links to its topic and its tags.
+- The template *Topic or Tag* designs those pages.
+
+### Changed
+
+- **Breaking.** Needs Lettern 0.49 or later.
+- **Patterns are components that are not synced.** The 29 sections and four whole pages are under Components, each inserted as a copy to change freely, and a new page starts from one of the whole pages.
+
 ## 0.5.0 (2026-11-15)
 
 ### Changed

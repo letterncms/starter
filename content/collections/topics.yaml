@@ -1,0 +1,25 @@
+type: categories
+title: Topics
+singular: Topic
+icon: folder
+driver: database
+route: '/journal/topics/{slug}'
+template: term
+nav_order: 30
+fields:
+  -
+    handle: summary
+    type: textarea
+    label: Summary
+    about: 'One sentence, shown under the topic’s name on its page.'
+  -
+    handle: colour
+    type: select
+    label: Colour
+    about: 'The colour of its stories’ tiles and title bands.'
+    options:
+      tide: Tide
+      clay: Clay
+      sun: Sun
+      mist: Mist
+    default: tide

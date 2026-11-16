@@ -45,7 +45,7 @@ summary: 'Notes from the workshop and the coast: how things are made, the people
 :::::
 
 ::::: repeat {"id":"jn-list","props":{"sort":"-published_at","offset":1,"source":"entries","filter_by":"item.topic","search_in":"item.title, item.summary","collection":"posts"},"class":"mt-8 grid grid-cols-3 gap-x-columns gap-y-16 max-lg:grid-cols-2 max-md:grid-cols-1 max-md:gap-y-12"}
-:::::: component {"id":"jn-card","props":{"ref":"story-card"},"bind":{"values.date":"item.date|date:F j, Y","values.link":"item.url","values.image":"item.cover","values.title":"item.title","values.topic":"item.topic"}}
+:::::: component {"id":"jn-card","props":{"ref":"story-card"},"bind":{"values.date":"item.date|date:F j, Y","values.link":"item.url","values.image":"item.cover","values.title":"item.title","values.topic":"item.topic","values.colour":"item.topic.colour"}}
 ::::::
 :::::
 

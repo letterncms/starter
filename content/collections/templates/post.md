@@ -14,10 +14,10 @@ collections:
 
 ::: box {"id":"po-main","props":{"tag":"main"},"label":"Main","anchor":"main"}
 :::: box {"id":"po-article","props":{"tag":"article"},"label":"Story"}
-::::: box {"id":"po-band","class":"data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","label":"Title band","bind":{"state:clay":"entry.topic|is:Making","state:tide":"entry.topic|is:Places","state:sun":"entry.topic|is:People","state:mist":"entry.topic|is:Notes"}}
+::::: box {"id":"po-band","class":"data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","label":"Title band","bind":{"state:clay":"entry.topic.colour|is:clay","state:tide":"entry.topic.colour|is:tide","state:sun":"entry.topic.colour|is:sun","state:mist":"entry.topic.colour|is:mist"}}
 :::::: box {"id":"po-head","props":{"tag":"header"},"label":"Title","class":"mx-auto flex max-w-4xl flex-col items-center gap-6 px-gutter pt-[clamp(3rem,7vw,7rem)] pb-[calc(clamp(3rem,8vw,7rem)+3rem)] text-center"}
 ::::::: box {"id":"po-meta","class":"meta flex items-center gap-3"}
-:::::::: paragraph {"id":"po-topic","props":{"tag":"span"},"class":"font-semibold text-foreground","bind":{"text":"entry.topic","visible":"entry.topic"}}
+:::::::: link {"id":"po-topic","class":"quiet-link font-semibold text-foreground","bind":{"label":"entry.topic.title","url":"entry.topic.url","visible":"entry.topic"}}
 ::::::::
 
 :::::::: paragraph {"id":"po-dot","props":{"text":"·","tag":"span"},"attrs":{"aria-hidden":"true"},"bind":{"visible":"entry.topic"}}
@@ -42,7 +42,9 @@ collections:
 :::::
 
 ::::: repeat {"id":"po-tags","props":{"source":"list","path":"entry.tags","tag":"ul"},"label":"Tags","class":"mx-auto flex max-w-[calc(var(--container-prose)+2*var(--spacing-gutter))] flex-wrap gap-2 px-gutter"}
-:::::: paragraph {"id":"po-tag","props":{"tag":"li"},"class":"rounded-full border border-border px-3 py-[0.3rem] text-sm text-muted","bind":{"text":"{item}"}}
+:::::: box {"id":"po-tag","props":{"tag":"li"}}
+::::::: link {"id":"po-tag-link","class":"inline-block rounded-full border border-border px-3 py-[0.3rem] text-sm text-muted no-underline transition-colors duration-150 hover:border-foreground hover:text-foreground","bind":{"label":"item.title","url":"item.url"}}
+:::::::
 ::::::
 :::::
 ::::
@@ -57,7 +59,7 @@ collections:
 :::::
 
 ::::: repeat {"id":"po-more-list","props":{"source":"entries","collection":"posts","sort":"-published_at","limit":3,"skipCurrent":true},"class":"mt-8 grid grid-cols-3 gap-columns max-lg:grid-cols-2 max-lg:gap-y-12 max-md:grid-cols-1"}
-:::::: component {"id":"po-more-card","props":{"ref":"story-card"},"bind":{"values.title":"item.title","values.image":"item.cover","values.link":"item.url","values.date":"item.date|date:F j, Y","values.topic":"item.topic"}}
+:::::: component {"id":"po-more-card","props":{"ref":"story-card"},"bind":{"values.title":"item.title","values.image":"item.cover","values.link":"item.url","values.date":"item.date|date:F j, Y","values.topic":"item.topic","values.colour":"item.topic.colour"}}
 ::::::
 :::::
 ::::

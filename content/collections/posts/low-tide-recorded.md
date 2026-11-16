@@ -4,11 +4,12 @@ title: 'Low tide, recorded'
 status: published
 published_at: '2026-11-08T09:00:00+00:00'
 tags:
-  - sound
-  - coast
+  - 01m7k2edg0a1n52ha1z15qwxrw
+  - 01m7k2edg0y0dv1jm8wb2yahn8
 cover:
   - 01m7ba38ty59yqk5x03fmtdmv8
-topic: Notes
+topic:
+  - 01m7k2edg0nxf3jt1z089jkga5
 summary: 'A minute and a quarter of the sea going out, recorded at the end of the coast path. For working to, or for falling asleep.'
 template: post
 ---

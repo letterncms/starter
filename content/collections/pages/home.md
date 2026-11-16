@@ -232,7 +232,7 @@ template: default
 ::::
 
 :::: repeat {"id":"h-journal-list","props":{"source":"entries","collection":"posts","sort":"-published_at","limit":3},"class":"grid grid-cols-3 gap-columns max-lg:grid-cols-2 max-md:grid-cols-1"}
-::::: component {"id":"h-journal-card","props":{"ref":"story-card"},"bind":{"values.title":"item.title","values.image":"item.cover","values.link":"item.url","values.date":"item.date|date:F j, Y","values.topic":"item.topic"}}
+::::: component {"id":"h-journal-card","props":{"ref":"story-card"},"bind":{"values.title":"item.title","values.image":"item.cover","values.link":"item.url","values.date":"item.date|date:F j, Y","values.topic":"item.topic","values.colour":"item.topic.colour"}}
 :::::
 
 ::::

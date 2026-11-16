@@ -27,18 +27,16 @@ fields:
     section: sidebar
   -
     handle: topic
-    type: select
+    type: terms
     label: Topic
-    options:
-      Making: Making
-      Places: Places
-      People: People
-      Notes: Notes
+    taxonomy: topics
+    max: 1
     section: sidebar
   -
     handle: tags
-    type: tags
+    type: terms
     label: Tags
+    taxonomy: tags
     section: sidebar
   -
     handle: template

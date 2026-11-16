@@ -16,7 +16,7 @@ collections:
 :::: box {"id":"ps-article","props":{"tag":"article"},"class":"mx-auto grid max-w-wide grid-cols-12 gap-x-columns gap-y-10 px-gutter pt-[clamp(2.5rem,6vw,6rem)] pb-section"}
 ::::: box {"id":"ps-side","props":{"tag":"header"},"class":"sticky top-26 col-span-4 col-start-1 flex flex-col gap-6 self-start max-lg:static max-lg:col-span-full"}
 :::::: box {"id":"ps-meta","class":"meta flex gap-3"}
-::::::: paragraph {"id":"ps-topic","props":{"tag":"span"},"class":"text-foreground","bind":{"text":"entry.topic","visible":"entry.topic"}}
+::::::: link {"id":"ps-topic","class":"quiet-link text-foreground","bind":{"label":"entry.topic.title","url":"entry.topic.url","visible":"entry.topic"}}
 :::::::
 
 ::::::: paragraph {"id":"ps-date","props":{"tag":"time"},"bind":{"text":"entry.date|date:F j, Y"}}
@@ -38,6 +38,13 @@ collections:
 ::::::
 
 :::::: outlet {"id":"ps-content","props":{"wrap":true,"prose":true},"class":"max-w-(--container-prose)"}
+::::::
+
+:::::: repeat {"id":"ps-tags","props":{"source":"list","path":"entry.tags","tag":"ul"},"label":"Tags","class":"flex max-w-(--container-prose) flex-wrap gap-2"}
+::::::: box {"id":"ps-tag","props":{"tag":"li"}}
+:::::::: link {"id":"ps-tag-link","class":"inline-block rounded-full border border-border px-3 py-[0.3rem] text-sm text-muted no-underline transition-colors duration-150 hover:border-foreground hover:text-foreground","bind":{"label":"item.title","url":"item.url"}}
+::::::::
+:::::::
 ::::::
 :::::
 ::::

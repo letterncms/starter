@@ -31,9 +31,19 @@ props:
     type: text
     label: Topic
     default: Making
+  -
+    handle: colour
+    type: select
+    label: Colour
+    options:
+      tide: Tide
+      clay: Clay
+      sun: Sun
+      mist: Mist
+    default: clay
 ---
 
-::: box {"id":"sc","props":{"tag":"article"},"class":"relative flex flex-col gap-5 rounded-lg p-4 pb-6 transition-transform duration-500 ease-out group-hover:-translate-y-1 data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","bind":{"link":"props.link","state:clay":"props.topic|is:Making","state:tide":"props.topic|is:Places","state:sun":"props.topic|is:People","state:mist":"props.topic|is:Notes"},"logic":{"behaviors":{"group":true}},"label":"Story card"}
+::: box {"id":"sc","props":{"tag":"article"},"class":"relative flex flex-col gap-5 rounded-lg p-4 pb-6 transition-transform duration-500 ease-out group-hover:-translate-y-1 data-tide:scheme-tide data-clay:scheme-clay data-sun:scheme-sun data-mist:scheme-mist","bind":{"link":"props.link","state:clay":"props.colour|is:clay","state:tide":"props.colour|is:tide","state:sun":"props.colour|is:sun","state:mist":"props.colour|is:mist"},"logic":{"behaviors":{"group":true}},"label":"Story card"}
 :::: box {"id":"sc-media","class":"aspect-4/3 overflow-clip rounded-md"}
 ::::: image {"id":"sc-image","props":{"aspect":"4/3","sizes":"(min-width: 64rem) 30vw, (min-width: 48rem) 46vw, 100vw"},"class":"transition-transform duration-900 ease-out group-hover:scale-103","bind":{"image":"props.image","visible":"props.image"}}
 :::::

@@ -4,11 +4,12 @@ title: 'Walking the coast path in November'
 status: published
 published_at: '2026-10-21T09:00:00+00:00'
 tags:
-  - walks
-  - coast
+  - 01m7k2edg0qvqwndxcg93nap03
+  - 01m7k2edg0y0dv1jm8wb2yahn8
 cover:
   - 01m7ba38tsjqd1ph2hd493jaqq
-topic: Places
+topic:
+  - 01m7k2edg03nrt3z9p6qq9hkdp
 summary: 'Eleven kilometres from the harbour to the lighthouse and back, on the shortest days of the year.'
 template: post
 ---

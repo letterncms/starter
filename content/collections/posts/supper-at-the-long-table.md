@@ -4,10 +4,11 @@ title: 'Supper at the long table'
 status: published
 published_at: '2026-10-30T09:00:00+00:00'
 tags:
-  - gatherings
+  - 01m7k2edg0v7z4ptb4z354m21d
 cover:
   - 01m7ba38vay182k0eg3t09gw0b
-topic: People
+topic:
+  - 01m7k2edg01988ccrk7hw8bq2h
 summary: 'Once a year we clear the workshop, put every table we have end to end and cook for the people who keep us going.'
 template: post
 ---

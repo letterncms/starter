@@ -4,11 +4,12 @@ title: 'Jonas Pieters on forty years at the wheel'
 status: published
 published_at: '2026-10-02T09:00:00+00:00'
 tags:
-  - ceramics
-  - conversation
+  - 01m7k2edg0h03bgvpy844w30fc
+  - 01m7k2edg0kkjnhabfbjc8hk9b
 cover:
   - 01m7ba38tdv5z7j2rr4r59rett
-topic: People
+topic:
+  - 01m7k2edg01988ccrk7hw8bq2h
 summary: 'Our potter on clay that remembers, glazes made from beach sand, and why he still throws every cup himself.'
 template: post-split
 ---
