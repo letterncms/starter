@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## 0.7.0 (2026-11-16)
+
+### Changed
+
+- **Breaking.** Needs Lettern 0.50 or later.
+- **The Studio's details and the main and footer menus are content types**: a global and two menus, whose links are entries.
+
 ## 0.6.0 (2026-11-16)
 
 ### Added

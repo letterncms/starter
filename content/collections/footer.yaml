@@ -1,0 +1,11 @@
+type: menu
+title: Footer
+singular: Link
+driver: files
+max_depth: 1
+fields:
+  -
+    handle: link
+    type: link
+    label: Link
+    required: true

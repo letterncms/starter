@@ -1,0 +1,11 @@
+type: menu
+title: Main
+singular: Link
+driver: files
+max_depth: 2
+fields:
+  -
+    handle: link
+    type: link
+    label: Link
+    required: true
